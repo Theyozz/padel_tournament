@@ -33,6 +33,9 @@ jobs:
           key: padel-cache-${{ github.run_id }}
           restore-keys: padel-cache-
 
+      - name: Garder les données de la veille
+        run: cp public/data.json "$RUNNER_TEMP/veille.json"
+
       - name: Récupérer les tournois
         run: python padel_lyon.py --niveaux tous --rayon 40 --no-open --json public/data.json
 
@@ -45,3 +48,15 @@ jobs:
             git commit -m "Tournois du $(date -u +%F)"
             git push
           fi
+
+      # Après la publication : une alerte qui échoue ne bloque pas la mise à jour du site
+      - name: Alerter des nouveaux tournois
+        continue-on-error: true
+        env:
+          ALERTE_URLS: ${{ secrets.ALERTE_URLS }}
+          ALERTE_NIVEAUX: ${{ vars.ALERTE_NIVEAUX }}
+          ALERTE_RAYON: ${{ vars.ALERTE_RAYON }}
+          ALERTE_SITE: ${{ vars.ALERTE_SITE }}
+        run: |
+          pip install apprise
+          python alerte.py "$RUNNER_TEMP/veille.json" public/data.json

@@ -57,6 +57,23 @@ Chaque commit de l'Action redéploie le site. Si aucune source ne répond, le sc
 
 En local : `.venv/bin/python -m http.server -d public` puis http://localhost:8000, ou bien `padel_lyon.py` sans `--json` pour générer une page autonome (`tournois_padel_lyon.html`, ouvrable directement).
 
+## Alerte « nouveaux tournois »
+
+Après chaque mise à jour, l'Action lance `alerte.py`. Le script compare `data.json` avec celui de la veille et envoie les tournois apparus depuis. Les notifications passent par [Apprise](https://github.com/caronc/apprise/wiki), qui gère Telegram, Discord, ntfy, l'e-mail, Slack, Signal, Pushover et d'autres.
+
+Dans GitHub : Settings > Secrets and variables > Actions.
+
+| Nom | Type | Rôle |
+|---|---|---|
+| `ALERTE_URLS` | secret | adresse(s) Apprise, séparées par des espaces. Sans elle, le message est seulement affiché dans le log |
+| `ALERTE_NIVEAUX` | variable | niveaux suivis (`P25,P50` par défaut, ajouter `Hors FFT` pour les autres) |
+| `ALERTE_RAYON` | variable | distance max en km (30) |
+| `ALERTE_SITE` | variable | adresse du site, ajoutée en fin de message |
+
+Pas d'alerte au premier lancement, ni pour une source qui revient après une panne : sinon tous ses tournois seraient signalés comme nouveaux d'un coup. Si l'envoi échoue, la mise à jour du site n'est pas touchée.
+
+En local : `python alerte.py ancien.json public/data.json`.
+
 ## Fonctionnement des sources
 
 - **Ten'Up** : l'API publique `POST /back/public/v1/tournois` (paginée) donne la liste des tournois. Pour chaque candidat (bonne épreuve, niveau compatible), la fiche `GET …/{id}/fiche-tournoi` donne le niveau par épreuve, la catégorie (« Senior » ou « 45 ans ») et le tarif. Les fiches restent 48 h en cache. Lien public : `https://tenup.fft.fr/tournoi/{numéro}`.
