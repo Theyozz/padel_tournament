@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.cache/
+tournois_padel_lyon.html
+tournois_padel_lyon.csv

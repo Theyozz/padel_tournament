@@ -1,0 +1,9 @@
+.venv
+.cache
+.pytest_cache
+__pycache__
+samples
+tests
+*.py
+requirements.txt
+tournois_padel_lyon.*

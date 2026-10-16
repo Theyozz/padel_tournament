@@ -1,0 +1,88 @@
+{
+ "pratique": "PADEL",
+ "entete": {
+  "cngt": false,
+  "dateDebut": "2026-11-22",
+  "dateFin": "2026-11-22",
+  "estFavori": false,
+  "galaxie": false,
+  "idFavori": null,
+  "libelle": "P100 Los Maestros (+45ans)  ",
+  "ntc": false,
+  "tmc": false
+ },
+ "tournoi": {
+  "adresse1": null,
+  "adresse2": "155 route de Grenoble",
+  "balles": "BULL PADEL / Next Pro",
+  "club": {
+   "code": "50690609",
+   "latitude": null,
+   "longitude": null,
+   "nom": "ESPRIT PADEL CLUB"
+  },
+  "codePostal": "69800",
+  "description": "<p>Inscriptions exclusivement en ligne .<br />\r\nOuverture des inscriptions le 5 de chaque mois pour le mois suivant. Exemple : le 5 septembre pour tous les tournois du mois d&#39;Octobre.<br />\r\nRestauration possible sur place.</p>\r\n",
+  "horaires": null,
+  "image": "https://cmsclub.fft.fr/50/69/0609/17112c2f-08b4-4329-9f5a-fda02daf6f14?format=auto",
+  "jugeArbitre": null,
+  "jugesArbitresAdjoints": null,
+  "latitude": 45.71022,
+  "longitude": 4.974,
+  "surfaces": [],
+  "ville": "ST PRIEST"
+ },
+ "epreuvesEnTete": {
+  "autoriseClubInvite": false,
+  "correspondant": null,
+  "decoupageTableauxExiste": false,
+  "estInscriptionEnLigne": false,
+  "estInscriptionEnLigneObligatoire": false,
+  "estPaiementEnLigne": false,
+  "estPaiementEnLigneObligatoire": false,
+  "estTournoiInterne": false,
+  "nomClubAccueil": "ESPRIT PADEL CLUB",
+  "nomsClubsInvite": []
+ },
+ "epreuves": [
+  {
+   "btnAjouterVisible": false,
+   "btnWildcardVisible": false,
+   "categorie": "P100",
+   "classementMax": "5000",
+   "classementMaxFemmes": null,
+   "classementMin": null,
+   "dateDebut": "2026-11-22",
+   "dateFin": "2026-11-22",
+   "double": true,
+   "estInscriptionOuverte": false,
+   "etatInscriptionJoueur": "NON_ELIGIBLE",
+   "etatOuvertureInscription": null,
+   "formatMatch": null,
+   "id": 650408,
+   "libelle": "Double Messieurs 45 ans",
+   "nature": "DM",
+   "nbPairesQualif": 0,
+   "nbPairesTabFin": 0,
+   "nbPairesWcQualif": 0,
+   "nbPairesWcTabFin": 0,
+   "partenaire": null,
+   "prixEspeces": null,
+   "prixLot": null,
+   "raisonNonEligibilite": null,
+   "repartitionGain": {
+    "prixVainqueur": null,
+    "prixFinaliste": null,
+    "prix3eme": null,
+    "prixDemi": null,
+    "prixQuart": null,
+    "prixHuitieme": null,
+    "prixSeizieme": null
+   },
+   "statutWildcard": null,
+   "tarifAdulte": 25.0,
+   "tarifJeune": null,
+   "tarifJoueurConnecte": null
+  }
+ ]
+}

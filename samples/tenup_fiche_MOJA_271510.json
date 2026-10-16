@@ -1,0 +1,88 @@
+{
+ "pratique": "PADEL",
+ "entete": {
+  "cngt": false,
+  "dateDebut": "2026-10-31",
+  "dateFin": "2026-10-31",
+  "estFavori": false,
+  "galaxie": false,
+  "idFavori": null,
+  "libelle": "P250 Hommes TCL",
+  "ntc": false,
+  "tmc": false
+ },
+ "tournoi": {
+  "adresse1": null,
+  "adresse2": "3 Bd du 11 Novembre",
+  "balles": "TECNIFIBRE / Padel Tour",
+  "club": {
+   "code": "50690001",
+   "latitude": null,
+   "longitude": null,
+   "nom": "LYON (TENNIS CLUB DE)"
+  },
+  "codePostal": "69100",
+  "description": null,
+  "horaires": null,
+  "image": "https://cmsclub.fft.fr/50/69/0001/41a22b92-7927-4079-920d-6c4ddae1e35b?format=auto",
+  "jugeArbitre": null,
+  "jugesArbitresAdjoints": null,
+  "latitude": 45.780655,
+  "longitude": 4.86132,
+  "surfaces": [],
+  "ville": "VILLEURBANNE"
+ },
+ "epreuvesEnTete": {
+  "autoriseClubInvite": false,
+  "correspondant": null,
+  "decoupageTableauxExiste": false,
+  "estInscriptionEnLigne": false,
+  "estInscriptionEnLigneObligatoire": false,
+  "estPaiementEnLigne": false,
+  "estPaiementEnLigneObligatoire": false,
+  "estTournoiInterne": false,
+  "nomClubAccueil": "LYON (TENNIS CLUB DE)",
+  "nomsClubsInvite": []
+ },
+ "epreuves": [
+  {
+   "btnAjouterVisible": false,
+   "btnWildcardVisible": false,
+   "categorie": "P250",
+   "classementMax": "1000",
+   "classementMaxFemmes": null,
+   "classementMin": null,
+   "dateDebut": "2026-10-31",
+   "dateFin": "2026-10-31",
+   "double": true,
+   "estInscriptionOuverte": false,
+   "etatInscriptionJoueur": "NON_ELIGIBLE",
+   "etatOuvertureInscription": null,
+   "formatMatch": null,
+   "id": 650469,
+   "libelle": "Double Messieurs Senior",
+   "nature": "DM",
+   "nbPairesQualif": 0,
+   "nbPairesTabFin": 0,
+   "nbPairesWcQualif": 0,
+   "nbPairesWcTabFin": 0,
+   "partenaire": null,
+   "prixEspeces": null,
+   "prixLot": null,
+   "raisonNonEligibilite": null,
+   "repartitionGain": {
+    "prixVainqueur": null,
+    "prixFinaliste": null,
+    "prix3eme": null,
+    "prixDemi": null,
+    "prixQuart": null,
+    "prixHuitieme": null,
+    "prixSeizieme": null
+   },
+   "statutWildcard": null,
+   "tarifAdulte": 25.0,
+   "tarifJeune": null,
+   "tarifJoueurConnecte": null
+  }
+ ]
+}

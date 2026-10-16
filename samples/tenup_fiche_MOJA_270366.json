@@ -1,0 +1,88 @@
+{
+ "pratique": "PADEL",
+ "entete": {
+  "cngt": false,
+  "dateDebut": "2026-11-18",
+  "dateFin": "2026-11-18",
+  "estFavori": false,
+  "galaxie": false,
+  "idFavori": null,
+  "libelle": "ALL IN 100H",
+  "ntc": false,
+  "tmc": false
+ },
+ "tournoi": {
+  "adresse1": null,
+  "adresse2": "2 AVENUE SIMONE VEIL",
+  "balles": "BABOLAT / Court Padel",
+  "club": {
+   "code": "50690610",
+   "latitude": null,
+   "longitude": null,
+   "nom": "ALL IN PADEL 69"
+  },
+  "codePostal": "69150",
+  "description": "<p>L&#39;inscription se fait directement sur l&#39;application ALL IN CENTER</p>\r\n",
+  "horaires": null,
+  "image": "https://cmsclub.fft.fr/50/69/0610/60eaa8bb-cc5b-4692-8d38-a980b4203c06?format=auto",
+  "jugeArbitre": null,
+  "jugesArbitresAdjoints": null,
+  "latitude": 45.768223,
+  "longitude": 4.980318,
+  "surfaces": [],
+  "ville": "DECINES CHARPIEU"
+ },
+ "epreuvesEnTete": {
+  "autoriseClubInvite": false,
+  "correspondant": null,
+  "decoupageTableauxExiste": false,
+  "estInscriptionEnLigne": false,
+  "estInscriptionEnLigneObligatoire": false,
+  "estPaiementEnLigne": false,
+  "estPaiementEnLigneObligatoire": false,
+  "estTournoiInterne": false,
+  "nomClubAccueil": "ALL IN PADEL 69",
+  "nomsClubsInvite": []
+ },
+ "epreuves": [
+  {
+   "btnAjouterVisible": false,
+   "btnWildcardVisible": false,
+   "categorie": "P100",
+   "classementMax": "5000",
+   "classementMaxFemmes": null,
+   "classementMin": null,
+   "dateDebut": "2026-11-18",
+   "dateFin": "2026-11-18",
+   "double": true,
+   "estInscriptionOuverte": false,
+   "etatInscriptionJoueur": "NON_ELIGIBLE",
+   "etatOuvertureInscription": null,
+   "formatMatch": null,
+   "id": 649230,
+   "libelle": "Double Messieurs Senior",
+   "nature": "DM",
+   "nbPairesQualif": 0,
+   "nbPairesTabFin": 0,
+   "nbPairesWcQualif": 0,
+   "nbPairesWcTabFin": 0,
+   "partenaire": null,
+   "prixEspeces": null,
+   "prixLot": null,
+   "raisonNonEligibilite": null,
+   "repartitionGain": {
+    "prixVainqueur": null,
+    "prixFinaliste": null,
+    "prix3eme": null,
+    "prixDemi": null,
+    "prixQuart": null,
+    "prixHuitieme": null,
+    "prixSeizieme": null
+   },
+   "statutWildcard": null,
+   "tarifAdulte": 25.0,
+   "tarifJeune": null,
+   "tarifJoueurConnecte": null
+  }
+ ]
+}

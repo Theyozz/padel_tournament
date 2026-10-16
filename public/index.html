@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tournois de padel autour de Lyon</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #eef3f8; --surface: #ffffff; --ink: #13233d; --muted: #56677e; --line: #d6e0eb;
+    --court: #2457a5; --court-deep: #173b6e; --court-soft: #e3ecf8; --ball: #d4e33c;
+    --accent-ink: #2457a5; --focus: #e09a00; --bar: rgba(238, 243, 248, .92);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #0d1a2c; --surface: #14243a; --ink: #e6edf6; --muted: #98a9c0; --line: #253a5b;
+      --court: #3a6fc4; --court-deep: #12294b; --court-soft: #1b3152; --ball: #d4e33c;
+      --accent-ink: #a9c4ee; --bar: rgba(13, 26, 44, .92);
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 400 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .cond { font-family: "Avenir Next Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  button, input, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  header { position: relative; overflow: hidden; background: var(--court-deep); color: #fff; }
+  header svg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .22; pointer-events: none; }
+  header .wrap { position: relative; padding-top: 36px; padding-bottom: 28px; }
+  h1 { margin: 0; font-weight: 700; font-size: clamp(2rem, 7vw, 3.6rem); line-height: .95; letter-spacing: -.01em; }
+  h1 em { font-style: normal; box-shadow: inset 0 -.18em var(--ball); }
+  .updated { margin: 12px 0 0; color: #c9d7ec; font-size: .95rem; }
+  .updated strong { color: #fff; font-weight: 600; }
+
+  .bar { position: sticky; top: 0; z-index: 5; background: var(--bar); backdrop-filter: blur(8px);
+         -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .bar .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding-top: 12px; padding-bottom: 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-weight: 700; font-size: .85rem; letter-spacing: .02em; padding: 4px 11px; border-radius: 999px;
+          border: 1.5px solid var(--line); background: var(--surface); color: var(--muted); cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--court); border-color: var(--court); color: #fff; }
+  .chip.off[aria-pressed="true"] { background: var(--surface); color: var(--ink); border-color: var(--ink); border-style: dashed; }
+  .field { display: flex; align-items: center; gap: 6px; font-size: .9rem; color: var(--muted); }
+  select, input[type=search] { background: var(--surface); border: 1.5px solid var(--line); border-radius: 10px; padding: 5px 9px; }
+  input[type=search] { width: 150px; }
+  .sort { font-weight: 600; font-size: .9rem; color: var(--accent-ink); background: var(--surface);
+          border: 1.5px solid var(--line); border-radius: 999px; padding: 5px 13px; cursor: pointer; margin-left: auto; }
+  .sort:hover, .chip:hover { border-color: var(--court); }
+
+  .count { margin: 18px 0 0; color: var(--muted); }
+  h2.month { margin: 26px 0 10px; font-weight: 700; font-size: 1.45rem; display: flex; align-items: baseline; gap: 10px; }
+  h2.month span { font-size: .92rem; font-weight: 400; color: var(--muted); }
+
+  ol.list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  ol.list li { display: grid; grid-template-columns: 74px 1fr auto; gap: 18px; align-items: center; padding: 16px 18px; }
+  ol.list li + li { border-top: 1px solid var(--line); }
+  .date { text-align: center; line-height: 1; }
+  .date .num { display: inline-block; font-weight: 700; font-size: 2.5rem; border-bottom: 4px solid var(--ball); padding-bottom: 3px; }
+  .date .wd { display: block; margin-top: 7px; font-size: .88rem; color: var(--muted); text-transform: capitalize; }
+  .date .until { display: block; margin-top: 2px; font-size: .76rem; color: var(--muted); }
+  .info { min-width: 0; }
+  .name { margin: 0; font-weight: 600; font-size: 1.05rem; line-height: 1.3; overflow-wrap: anywhere; }
+  .where { margin: 3px 0 0; color: var(--muted); font-size: .95rem; overflow-wrap: anywhere; }
+  .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-top: 8px; font-size: .9rem; color: var(--muted); }
+  .lvl { font-weight: 700; font-size: .85rem; letter-spacing: .02em; padding: 1px 9px; border-radius: 6px;
+         border: 1.5px solid var(--court); color: var(--accent-ink); }
+  .lvl.p50 { background: var(--court); color: #fff; }
+  .lvl.off { border-style: dashed; border-color: var(--muted); color: var(--muted); font-weight: 600; }
+  .links { display: flex; flex-direction: column; gap: 6px; }
+  a.go { text-align: center; font-weight: 600; font-size: .92rem; color: var(--accent-ink); text-decoration: none;
+         border: 1.5px solid var(--court); border-radius: 999px; padding: 6px 14px; white-space: nowrap; }
+  a.go:hover { background: var(--court); color: #fff; }
+
+  .empty { margin: 30px 0; padding: 24px; background: var(--surface); border: 1px dashed var(--line); border-radius: 14px; }
+  .empty p { margin: 0 0 6px; }
+  .linkbtn { background: none; border: 0; padding: 0; color: var(--accent-ink); font-weight: 600; text-decoration: underline; cursor: pointer; }
+  footer { color: var(--muted); font-size: .86rem; padding: 34px 0 48px; }
+  footer p { margin: 0 0 6px; max-width: 78ch; }
+  code { font-size: .85em; background: var(--court-soft); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+  .warn { color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--focus);
+          border-radius: 8px; padding: 10px 14px; margin: 0 0 14px; overflow-wrap: anywhere; }
+  header .warn { margin: 14px 0 0; max-width: 62ch; }
+
+  @media (max-width: 620px) {
+    ol.list li { grid-template-columns: 56px 1fr; gap: 12px 14px; padding: 14px; }
+    .date .num { font-size: 2rem; }
+    .links { grid-column: 2; flex-direction: row; flex-wrap: wrap; }
+    .bar { position: static; }
+    input[type=search] { width: 100%; }
+    .field.search { flex: 1 1 100%; }
+    .sort { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <svg viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true">
+    <g fill="none" stroke="#fff" stroke-width="3">
+      <rect x="20" y="20" width="960" height="260"/>
+      <line x1="500" y1="8" x2="500" y2="292" stroke-width="6"/>
+      <line x1="170" y1="20" x2="170" y2="280"/><line x1="830" y1="20" x2="830" y2="280"/>
+      <line x1="170" y1="150" x2="830" y2="150"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <h1 class="cond">Tournois de padel<br>autour de <em>Lyon</em></h1>
+    <p class="updated" id="updated"></p>
+    <div id="stale"></div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap" role="group" aria-label="Filtres">
+    <div class="chips" id="chips" role="group" aria-label="Niveaux"></div>
+    <label class="field">Distance
+      <select id="dist"></select>
+    </label>
+    <label class="field search"><span class="sr">Recherche</span>
+      <input type="search" id="q" placeholder="Club, ville, nom…" autocomplete="off">
+    </label>
+    <button type="button" class="sort" id="sort"></button>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="count" id="count" aria-live="polite"></p>
+  <div id="results"></div>
+  <footer id="footer"></footer>
+</main>
+
+<!-- Données : vide sur le site (chargées depuis data.json), intégrées dans la version autonome. -->
+<script>window.PADEL_DATA = null;</script>
+<script>
+(async () => {
+  let data = window.PADEL_DATA;
+  if (!data) {
+    const r = await fetch("data.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(`data.json introuvable (HTTP ${r.status})`);
+    data = await r.json();
+  }
+  demarrer(data);
+})().catch(err => {
+  const box = document.getElementById("results");
+  box.innerHTML = '<div class="empty"><p><strong>Impossible de charger les tournois.</strong></p><p></p></div>';
+  box.querySelector("p + p").textContent = err.message;
+});
+
+function demarrer({ meta, tournois }) {
+const EPREUVES = { DM: "double messieurs", DD: "double dames", DX: "double mixte" };
+const fmt = (o) => new Intl.DateTimeFormat("fr-FR", o);
+const parse = (s) => s ? new Date(s + "T12:00:00") : null;
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const pl = (n, mot) => `${n} ${mot}${n > 1 ? "s" : ""}`;
+const safeUrl = (u) => /^https:\/\//.test(u || "") ? u : "";
+const norm = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const HORS = "Hors FFT";
+
+// ── Filtres (mémorisés dans le navigateur) ───────────────────────────────
+const niveauxDispo = [...new Set(tournois.flatMap(t => t.niveaux))].sort((a, b) => a.slice(1) - b.slice(1));
+const DEFAUT = {
+  niveaux: (meta.niveaux.length ? meta.niveaux : ["P25", "P50"]).concat(meta.hors_fft ? [HORS] : []),
+  dist: Math.min(30, meta.rayon), dir: "asc", q: ""
+};
+let etat = { ...DEFAUT };
+try { Object.assign(etat, JSON.parse(localStorage.getItem("padel-lyon-filtres") || "{}")); } catch (e) {}
+const sauver = () => { try { localStorage.setItem("padel-lyon-filtres", JSON.stringify({ ...etat, q: "" })); } catch (e) {} };
+
+const chips = document.getElementById("chips");
+chips.innerHTML = niveauxDispo.concat(tournois.some(t => !t.niveaux.length) ? [HORS] : [])
+  .map(n => `<button type="button" class="chip${n === HORS ? " off" : ""}" data-n="${esc(n)}">${esc(n)}</button>`).join("");
+chips.addEventListener("click", (ev) => {
+  const b = ev.target.closest(".chip"); if (!b) return;
+  const n = b.dataset.n;
+  etat.niveaux = etat.niveaux.includes(n) ? etat.niveaux.filter(x => x !== n) : etat.niveaux.concat(n);
+  sauver(); render();
+});
+
+const dist = document.getElementById("dist");
+const paliers = [5, 10, 15, 20, 30, 40, 50].filter(d => d < meta.rayon).concat(meta.rayon);
+dist.innerHTML = paliers.map(d => `<option value="${d}">≤ ${d} km</option>`).join("");
+if (!paliers.includes(Number(etat.dist))) etat.dist = paliers.filter(d => d <= DEFAUT.dist).pop() || meta.rayon;
+dist.addEventListener("change", () => { etat.dist = Number(dist.value); sauver(); render(); });
+
+const q = document.getElementById("q");
+q.addEventListener("input", () => { etat.q = q.value; render(); });
+document.getElementById("sort").addEventListener("click", () => { etat.dir = etat.dir === "asc" ? "desc" : "asc"; sauver(); render(); });
+
+function reinit() { etat = { ...DEFAUT }; q.value = ""; sauver(); render(); }
+
+// ── En-tête et pied de page ──────────────────────────────────────────────
+const genere = new Date(meta.genere);
+const ageH = (Date.now() - genere) / 36e5;
+document.getElementById("updated").innerHTML =
+  `${esc(cap(EPREUVES[meta.epreuve] || meta.epreuve))}, Senior, jusqu'à ${esc(meta.rayon)} km. ` +
+  `Mis à jour <strong>${esc(ageH < 20 && genere.toDateString() === new Date().toDateString() ? "aujourd'hui" : "le " + fmt({ day: "numeric", month: "long" }).format(genere))} à ${esc(fmt({ hour: "2-digit", minute: "2-digit" }).format(genere))}</strong>.`;
+if (ageH > 36) document.getElementById("stale").innerHTML =
+  `<p class="warn">Ces données ont ${esc(Math.floor(ageH / 24))} jour(s) : la mise à jour quotidienne n'a pas tourné (voir l'onglet Actions du dépôt GitHub).</p>`;
+
+const ko = meta.sources.filter(s => !s.ok), ok = meta.sources.filter(s => s.ok);
+document.getElementById("footer").innerHTML =
+  ko.map(s => `<p class="warn"><strong>${esc(s.nom)}</strong> n'a pas pu être consulté lors de la dernière mise à jour : ${esc(s.erreur)}. Les autres sources sont affichées normalement.</p>`).join("") +
+  `<p>Récupéré le ${esc(fmt({ day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit" }).format(genere))}, ` +
+  `du ${esc(fmt({ day: "numeric", month: "long" }).format(parse(meta.debut)))} au ${esc(fmt({ day: "numeric", month: "long", year: "numeric" }).format(parse(meta.fin)))}.</p>` +
+  `<p>Événements trouvés : ${ok.length ? esc(ok.map(s => `${s.nom} ${s.nb || "0 (aucun tournoi publié)"}`).join(", ")) : "aucun"}` +
+  `${ko.length ? ` (en échec : ${esc(ko.map(s => s.nom).join(", "))})` : ""}. ${esc(pl(meta.doublons, "doublon"))} fusionné${meta.doublons > 1 ? "s" : ""}.</p>` +
+  `<p>Mise à jour automatique chaque matin. Pour les tournois hors FFT, vérifie le format (americano, paires fixes…) sur la page du club.</p>`;
+
+// ── Liste ────────────────────────────────────────────────────────────────
+function row(t) {
+  const d = parse(t.debut), f = parse(t.fin);
+  const multi = f && t.fin !== t.debut;
+  const where = [t.club, t.ville].filter(Boolean).map(esc).join(" · ") +
+    (t.distance_km != null ? ` · ${esc(String(t.distance_km).replace(".", ","))} km` : "");
+  const lvls = t.niveaux.length
+    ? t.niveaux.map(n => `<span class="lvl ${esc(n.toLowerCase())}">${esc(n)}</span>`).join("")
+    : `<span class="lvl off">Hors FFT</span>`;
+  const extra = [t.heure ? t.heure.replace(":", "h") : "", t.prix,
+                 t.inscrits ? `${t.inscrits} inscrits` : "",
+                 t.niveau_playtomic ? `niveau Playtomic ${t.niveau_playtomic}` : ""].filter(Boolean);
+  const links = t.sources.filter(s => safeUrl(s.lien)).map(s =>
+    `<a class="go" href="${esc(safeUrl(s.lien))}" target="_blank" rel="noopener noreferrer">Voir sur ${esc(s.nom)}</a>`).join("");
+  return `<li>
+    <div class="date cond">
+      <span class="num">${d ? d.getDate() : "?"}</span>
+      <span class="wd">${d ? esc(fmt({ weekday: "long" }).format(d)) : ""}</span>
+      ${multi ? `<span class="until">au ${esc(fmt({ day: "numeric", month: "short" }).format(f))}</span>` : ""}
+    </div>
+    <div class="info">
+      <p class="name">${esc(t.libelle)}</p>
+      <p class="where">${where}</p>
+      <div class="meta">${lvls}${extra.length ? `<span>${extra.map(esc).join(" · ")}</span>` : ""}</div>
+    </div>
+    <div class="links">${links}</div>
+  </li>`;
+}
+
+function visible(t, today) {
+  if (t.debut < today) return false;
+  if (t.distance_km != null && t.distance_km > etat.dist) return false;
+  const ok = t.niveaux.length ? t.niveaux.some(n => etat.niveaux.includes(n)) : etat.niveaux.includes(HORS);
+  if (!ok) return false;
+  const mots = norm(etat.q).split(/\s+/).filter(Boolean);
+  const texte = norm([t.libelle, t.club, t.ville].join(" "));
+  return mots.every(m => texte.includes(m));
+}
+
+function render() {
+  chips.querySelectorAll(".chip").forEach(b => b.setAttribute("aria-pressed", String(etat.niveaux.includes(b.dataset.n))));
+  dist.value = String(etat.dist);
+  if (q.value !== etat.q) q.value = etat.q;
+  document.getElementById("sort").textContent = etat.dir === "asc" ? "↓ Plus proches d'abord" : "↑ Plus lointains d'abord";
+
+  const now = new Date();
+  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+  const list = tournois.filter(t => visible(t, today)).sort((a, b) => {
+    const c = (a.debut + (a.heure || "99")).localeCompare(b.debut + (b.heure || "99"));
+    return etat.dir === "asc" ? c : -c;
+  });
+  const avenir = tournois.filter(t => t.debut >= today).length;
+  document.getElementById("count").textContent = `${pl(list.length, "tournoi")} sur ${avenir}`;
+
+  const box = document.getElementById("results");
+  if (!list.length) {
+    box.innerHTML = `<div class="empty"><p><strong>Aucun tournoi ne correspond à ces filtres.</strong></p>
+      <p>Ajoute un niveau, augmente la distance ou <button type="button" class="linkbtn" id="reset">reviens aux filtres par défaut</button>.</p></div>`;
+    document.getElementById("reset").addEventListener("click", reinit);
+    return;
+  }
+  const groups = [];
+  for (const t of list) {
+    const key = t.debut.slice(0, 7);
+    if (!groups.length || groups[groups.length - 1].key !== key) groups.push({ key, items: [] });
+    groups[groups.length - 1].items.push(t);
+  }
+  box.innerHTML = groups.map(g => `<section><h2 class="month cond">${esc(cap(fmt({ month: "long", year: "numeric" }).format(parse(g.key + "-01"))))}<span>${pl(g.items.length, "tournoi")}</span></h2>
+      <ol class="list">${g.items.map(row).join("")}</ol></section>`).join("");
+}
+render();
+}
+</script>
+</body>
+</html>
