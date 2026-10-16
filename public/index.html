@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tournois de padel autour de Lyon</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg transform='rotate(-35 32 32)'%3E%3Crect x='28' y='38' width='8' height='22' rx='3' fill='%23333'/%3E%3Cellipse cx='32' cy='22' rx='17' ry='20' fill='%231e6fd9' stroke='%23123f7a' stroke-width='3'/%3E%3Cg fill='%23123f7a'%3E%3Ccircle cx='26' cy='14' r='2.2'/%3E%3Ccircle cx='32' cy='12' r='2.2'/%3E%3Ccircle cx='38' cy='14' r='2.2'/%3E%3Ccircle cx='24' cy='21' r='2.2'/%3E%3Ccircle cx='32' cy='20' r='2.2'/%3E%3Ccircle cx='40' cy='21' r='2.2'/%3E%3Ccircle cx='27' cy='28' r='2.2'/%3E%3Ccircle cx='37' cy='28' r='2.2'/%3E%3C/g%3E%3C/g%3E%3Ccircle cx='50' cy='50' r='10' fill='%23d4f53c' stroke='%23889e1f' stroke-width='2'/%3E%3Cpath d='M42 45 q8 5 16 0 M42 55 q8 -5 16 0' fill='none' stroke='%23fff' stroke-width='1.6'/%3E%3C/svg%3E">
 <style>
   :root {
     color-scheme: light;
@@ -84,6 +85,11 @@
   .warn { color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--focus);
           border-radius: 8px; padding: 10px 14px; margin: 0 0 14px; overflow-wrap: anywhere; }
   header .warn { margin: 14px 0 0; max-width: 62ch; }
+  .share { position: absolute; top: 14px; right: 16px; display: inline-flex; align-items: center; gap: 6px;
+           font-weight: 600; font-size: .9rem; color: var(--court-deep); background: var(--ball);
+           border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+  .share:hover { filter: brightness(1.08); }
+  .share svg { position: static; width: 16px; height: 16px; opacity: 1; }
 
   @media (max-width: 620px) {
     ol.list li { grid-template-columns: 56px 1fr; gap: 12px 14px; padding: 14px; }
@@ -93,6 +99,7 @@
     input[type=search] { width: 100%; }
     .field.search { flex: 1 1 100%; }
     .sort { margin-left: 0; }
+    header .wrap { padding-top: 58px; }
   }
 </style>
 </head>
@@ -107,6 +114,10 @@
     </g>
   </svg>
   <div class="wrap">
+    <button type="button" class="share" id="share" hidden>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+      <span>Partager</span>
+    </button>
     <h1 class="cond">Tournois de padel<br>autour de <em>Lyon</em></h1>
     <p class="updated" id="updated"></p>
     <div id="stale"></div>
@@ -281,6 +292,31 @@ function render() {
       <ol class="list">${g.items.map(row).join("")}</ol></section>`).join("");
 }
 render();
+}
+</script>
+<script>
+{
+  const btn = document.getElementById("share");
+  const label = btn.querySelector("span");
+  // Rien à partager en version autonome (fichier local).
+  if (/^https?:$/.test(location.protocol)) btn.hidden = false;
+  let timer;
+  btn.addEventListener("click", async () => {
+    const url = location.origin + location.pathname;
+    const data = { title: document.title, text: "Les tournois de padel autour de Lyon 🎾", url };
+    if (navigator.share) {
+      try { await navigator.share(data); } catch (e) { /* partage annulé */ }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      label.textContent = "Lien copié !";
+    } catch (e) {
+      label.textContent = "Copie impossible";
+    }
+    clearTimeout(timer);
+    timer = setTimeout(() => { label.textContent = "Partager"; }, 2000);
+  });
 }
 </script>
 </body>
