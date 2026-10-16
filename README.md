@@ -66,7 +66,7 @@ Dans GitHub : Settings > Secrets and variables > Actions.
 | Nom | Type | Rôle |
 |---|---|---|
 | `ALERTE_URLS` | secret | adresse(s) Apprise, séparées par des espaces. Sans elle, le message est seulement affiché dans le log |
-| `ALERTE_NIVEAUX` | variable | niveaux suivis (`P25,P50` par défaut, ajouter `Hors FFT` pour les autres) |
+| `ALERTE_NIVEAUX` | variable | niveaux suivis (`P25,P50,Hors FFT` par défaut ; `Hors FFT` = americanos, tournois maison…) |
 | `ALERTE_RAYON` | variable | distance max en km (30) |
 | `ALERTE_SITE` | variable | adresse du site, ajoutée en fin de message |
 

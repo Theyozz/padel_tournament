@@ -8,7 +8,7 @@ Réglages par variables d'environnement (dans GitHub : Settings > Secrets and va
     ALERTE_URLS       secret, une ou plusieurs adresses Apprise séparées par des espaces
                       (tgram://…, discord://…, ntfy://…, mailto://…). Absent : le message est
                       seulement affiché.
-    ALERTE_NIVEAUX    niveaux suivis, ex. "P25,P50" (défaut) ; ajouter "Hors FFT" pour les autres
+    ALERTE_NIVEAUX    niveaux suivis, défaut "P25,P50,Hors FFT"
     ALERTE_RAYON      distance max en km depuis Lyon (défaut 30)
     ALERTE_SITE       adresse du site, ajoutée en fin de message
 """
@@ -84,7 +84,7 @@ def main(argv):
     veille, jour = lire(argv[0]), lire(argv[1])
     if not jour:
         sys.exit(f"{argv[1]} illisible")
-    niveaux = {n.strip() for n in (os.environ.get("ALERTE_NIVEAUX") or "P25,P50").split(",") if n.strip()}
+    niveaux = {n.strip() for n in (os.environ.get("ALERTE_NIVEAUX") or "P25,P50,Hors FFT").split(",") if n.strip()}
     rayon = float(os.environ.get("ALERTE_RAYON") or 30)
     liste = nouveaux(veille, jour, niveaux, rayon, date.today())
     if not liste:
