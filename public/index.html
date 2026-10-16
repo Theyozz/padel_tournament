@@ -75,6 +75,11 @@
   a.go { text-align: center; font-weight: 600; font-size: .92rem; color: var(--accent-ink); text-decoration: none;
          border: 1.5px solid var(--court); border-radius: 999px; padding: 6px 14px; white-space: nowrap; }
   a.go:hover { background: var(--court); color: #fff; }
+  .share { display: inline-flex; align-items: center; justify-content: center; gap: 6px; font-weight: 600; font-size: .92rem;
+           color: var(--muted); background: none; border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 14px;
+           white-space: nowrap; cursor: pointer; }
+  .share:hover { border-color: var(--court); color: var(--accent-ink); }
+  .share svg { width: 15px; height: 15px; flex: none; }
 
   .empty { margin: 30px 0; padding: 24px; background: var(--surface); border: 1px dashed var(--line); border-radius: 14px; }
   .empty p { margin: 0 0 6px; }
@@ -85,11 +90,6 @@
   .warn { color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--focus);
           border-radius: 8px; padding: 10px 14px; margin: 0 0 14px; overflow-wrap: anywhere; }
   header .warn { margin: 14px 0 0; max-width: 62ch; }
-  .share { position: absolute; top: 14px; right: 16px; display: inline-flex; align-items: center; gap: 6px;
-           font-weight: 600; font-size: .9rem; color: var(--court-deep); background: var(--ball);
-           border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
-  .share:hover { filter: brightness(1.08); }
-  .share svg { position: static; width: 16px; height: 16px; opacity: 1; }
 
   @media (max-width: 620px) {
     ol.list li { grid-template-columns: 56px 1fr; gap: 12px 14px; padding: 14px; }
@@ -99,7 +99,6 @@
     input[type=search] { width: 100%; }
     .field.search { flex: 1 1 100%; }
     .sort { margin-left: 0; }
-    header .wrap { padding-top: 58px; }
   }
 </style>
 </head>
@@ -114,10 +113,6 @@
     </g>
   </svg>
   <div class="wrap">
-    <button type="button" class="share" id="share" hidden>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
-      <span>Partager</span>
-    </button>
     <h1 class="cond">Tournois de padel<br>autour de <em>Lyon</em></h1>
     <p class="updated" id="updated"></p>
     <div id="stale"></div>
@@ -222,6 +217,36 @@ document.getElementById("footer").innerHTML =
   `<p>Mise à jour automatique chaque matin. Pour les tournois hors FFT, vérifie le format (americano, paires fixes…) sur la page du club.</p>`;
 
 // ── Liste ────────────────────────────────────────────────────────────────
+const ICONE_PARTAGE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>';
+
+// Texte envoyé au pote : nom, quand, où, prix, puis le lien d'inscription.
+function messagePartage(t) {
+  const d = parse(t.debut);
+  const quand = d ? fmt({ weekday: "long", day: "numeric", month: "long" }).format(d) + (t.heure ? ` à ${t.heure.replace(":", "h")}` : "") : "";
+  const lignes = [`🎾 ${t.libelle}`, quand, [t.club, t.ville].filter(Boolean).join(" · "),
+                  [t.niveaux.join("/"), t.prix].filter(Boolean).join(" · ")].filter(Boolean);
+  const lien = t.sources.map(s => safeUrl(s.lien)).find(Boolean) || "";
+  return { text: lignes.join("\n"), url: lien };
+}
+
+document.getElementById("results").addEventListener("click", async (ev) => {
+  const b = ev.target.closest(".share"); if (!b) return;
+  const { text, url } = messagePartage(tournois[Number(b.dataset.i)]);
+  if (navigator.share) {
+    try { await navigator.share(url ? { text, url } : { text }); } catch (e) { /* partage annulé */ }
+    return;
+  }
+  const label = b.querySelector("span");
+  try {
+    await navigator.clipboard.writeText(url ? `${text}\n${url}` : text);
+    label.textContent = "Copié !";
+  } catch (e) {
+    label.textContent = "Copie impossible";
+  }
+  clearTimeout(b._t);
+  b._t = setTimeout(() => { label.textContent = "Partager"; }, 2000);
+});
+
 function row(t) {
   const d = parse(t.debut), f = parse(t.fin);
   const multi = f && t.fin !== t.debut;
@@ -246,7 +271,7 @@ function row(t) {
       <p class="where">${where}</p>
       <div class="meta">${lvls}${extra.length ? `<span>${extra.map(esc).join(" · ")}</span>` : ""}</div>
     </div>
-    <div class="links">${links}</div>
+    <div class="links">${links}<button type="button" class="share" data-i="${tournois.indexOf(t)}">${ICONE_PARTAGE}<span>Partager</span></button></div>
   </li>`;
 }
 
@@ -292,31 +317,6 @@ function render() {
       <ol class="list">${g.items.map(row).join("")}</ol></section>`).join("");
 }
 render();
-}
-</script>
-<script>
-{
-  const btn = document.getElementById("share");
-  const label = btn.querySelector("span");
-  // Rien à partager en version autonome (fichier local).
-  if (/^https?:$/.test(location.protocol)) btn.hidden = false;
-  let timer;
-  btn.addEventListener("click", async () => {
-    const url = location.origin + location.pathname;
-    const data = { title: document.title, text: "Les tournois de padel autour de Lyon 🎾", url };
-    if (navigator.share) {
-      try { await navigator.share(data); } catch (e) { /* partage annulé */ }
-      return;
-    }
-    try {
-      await navigator.clipboard.writeText(url);
-      label.textContent = "Lien copié !";
-    } catch (e) {
-      label.textContent = "Copie impossible";
-    }
-    clearTimeout(timer);
-    timer = setTimeout(() => { label.textContent = "Partager"; }, 2000);
-  });
 }
 </script>
 </body>
