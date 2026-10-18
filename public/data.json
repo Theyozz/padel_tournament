@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-17",
-  "fin": "2027-02-17",
-  "genere": "2026-10-17T09:08",
+  "debut": "2026-10-18",
+  "fin": "2027-02-18",
+  "genere": "2026-10-18T09:25",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 330
+    "nb": 317
    },
    {
     "nom": "Playtomic",
@@ -28,195 +28,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "09:00",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 Hommes Matin UrbanPadel Dardilly (09h-17h)",
-   "club": "URBAN PADEL DARDILLY",
-   "ville": "Dardilly",
-   "distance_km": 8.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/272219"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P 100 TCM5 MESSIEURS",
-   "club": "MUNICIPAL 5EME (TENNIS CLUB)",
-   "ville": "LYON 05",
-   "distance_km": 3.5,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270607"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-18",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 - lyon padel vv - En partenariat avec Chamrous",
-   "club": "LYON PADEL",
-   "ville": "VAULX EN VELIN",
-   "distance_km": 5.9,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/306105"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 Messieurs",
-   "club": "ESPRIT PADEL CLUB",
-   "ville": "ST PRIEST",
-   "distance_km": 12.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271443"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 n°6 Corbas",
-   "club": "CORBAS (TENNIS CLUB DE)",
-   "ville": "CORBAS",
-   "distance_km": 12.5,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271960"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 JOURNEE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/263845"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN P100 Villefranche",
-   "club": "ALL IN PADEL 69",
-   "ville": "VILLEFRANCHE SUR SAONE",
-   "distance_km": 27.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269963"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 Homme Vienne",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269216"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-17",
-   "fin": "2026-10-17",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 Hommes",
-   "club": "SAINT CHAMOND (TEN SQUASH CLUB)",
-   "ville": "ST CHAMOND",
-   "distance_km": 39.6,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269680"
-    }
-   ]
-  },
   {
    "debut": "2026-10-18",
    "fin": "2026-10-18",
@@ -5296,6 +5107,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271304"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-17",
+   "fin": "2027-02-17",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250H - Esprit Padel La Boisse",
+   "club": "ESPRIT PADEL LA BOISSE",
+   "ville": "LA BOISSE",
+   "distance_km": 19.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271305"
     }
    ]
   }
