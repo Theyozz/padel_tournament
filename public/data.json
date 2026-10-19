@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-18",
-  "fin": "2027-02-18",
-  "genere": "2026-10-18T09:25",
+  "debut": "2026-10-19",
+  "fin": "2027-02-19",
+  "genere": "2026-10-19T10:39",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 317
+    "nb": 308
    },
    {
     "nom": "Playtomic",
@@ -28,111 +28,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-18",
-   "fin": "2026-10-18",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 Dames + Messieurs",
-   "club": "ESPRIT PADEL CLUB",
-   "ville": "ST PRIEST",
-   "distance_km": 12.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271444"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-18",
-   "fin": "2026-10-18",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271192"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-18",
-   "fin": "2026-10-18",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 homme Vienne",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269218"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-18",
-   "fin": "2026-10-18",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 HOMME",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "22 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/310134"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-18",
-   "fin": "2026-10-18",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 Hommes",
-   "club": "SAINT CHAMOND (TEN SQUASH CLUB)",
-   "ville": "ST CHAMOND",
-   "distance_km": 39.6,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269681"
-    }
-   ]
-  },
   {
    "debut": "2026-10-19",
    "fin": "2026-10-19",
