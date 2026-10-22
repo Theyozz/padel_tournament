@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-21",
-  "fin": "2027-02-21",
-  "genere": "2026-10-21T09:56",
+  "debut": "2026-10-22",
+  "fin": "2027-02-22",
+  "genere": "2026-10-22T09:58",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 407
+    "nb": 405
    },
    {
     "nom": "Playtomic",
@@ -28,69 +28,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-21",
-   "fin": "2026-10-21",
-   "heure": "09:00",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 Hommes Flash (9h-13h)",
-   "club": "GONES PADEL",
-   "ville": "Irigny",
-   "distance_km": 8.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/268842"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-21",
-   "fin": "2026-10-21",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271194"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-21",
-   "fin": "2026-10-21",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 H Journée tennis padel pont-évêque",
-   "club": "PONT EVEQUE TC",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270697"
-    }
-   ]
-  },
   {
    "debut": "2026-10-22",
    "fin": "2026-10-22",
@@ -5409,27 +5346,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303959"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P500"
    ],
    "libelle": "ALL IN P500",
@@ -5443,6 +5359,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270376"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "ALL IN P50",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/303959"
     }
    ]
   },
@@ -5506,6 +5443,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271265"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-04",
+   "fin": "2027-01-04",
+   "heure": "09:00",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 en journée (09h00 16h00)",
+   "club": "ESPRIT PADEL CLUB",
+   "ville": "ST PRIEST",
+   "distance_km": 12.3,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271706"
     }
    ]
   },
@@ -6283,6 +6241,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271907"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-01",
+   "fin": "2027-02-01",
+   "heure": "09:00",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 Hommes (9h-17h)",
+   "club": "GONES PADEL",
+   "ville": "Irigny",
+   "distance_km": 8.0,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268873"
     }
    ]
   },
