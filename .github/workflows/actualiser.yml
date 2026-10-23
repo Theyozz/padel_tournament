@@ -37,7 +37,7 @@ jobs:
         run: cp public/data.json "$RUNNER_TEMP/veille.json"
 
       - name: Récupérer les tournois
-        run: python padel_lyon.py --niveaux tous --rayon 40 --no-open --json public/data.json
+        run: python padel_lyon.py --niveaux tous --rayon 40 --no-open --json public/data.json --reprendre "$RUNNER_TEMP/veille.json"
 
       - name: Publier data.json
         run: |

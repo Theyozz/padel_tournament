@@ -17,7 +17,8 @@
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
-    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon"
+    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
+    "repris": 12
    },
    {
     "nom": "4PADEL",
@@ -283,6 +284,25 @@
   {
    "debut": "2026-10-25",
    "fin": "2026-10-25",
+   "heure": "14:00",
+   "niveaux": [],
+   "libelle": "TOURNOI AMICAL",
+   "club": "Sportfield Lyon Part-Dieu",
+   "ville": "Lyon",
+   "distance_km": 1.6,
+   "prix": "25 €",
+   "inscrits": "0/12",
+   "niveau_playtomic": "2–5",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/77652718-681d-40f5-9e13-088d17731325"
+    }
+   ]
+  },
+  {
+   "debut": "2026-10-25",
+   "fin": "2026-10-25",
    "heure": "",
    "niveaux": [
     "P25"
@@ -361,6 +381,25 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/272188"
+    }
+   ]
+  },
+  {
+   "debut": "2026-10-26",
+   "fin": "2026-10-26",
+   "heure": "18:00",
+   "niveaux": [],
+   "libelle": "AMERICANO",
+   "club": "Sportfield Lyon Part-Dieu",
+   "ville": "Lyon",
+   "distance_km": 1.6,
+   "prix": "25 €",
+   "inscrits": "1/8",
+   "niveau_playtomic": "0–7",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/7d27c4eb-f563-431f-957e-2506f92eba1d"
     }
    ]
   },
@@ -533,6 +572,25 @@
    ]
   },
   {
+   "debut": "2026-10-28",
+   "fin": "2026-10-28",
+   "heure": "11:30",
+   "niveaux": [],
+   "libelle": "AMERICANO",
+   "club": "Sportfield Lyon Part-Dieu",
+   "ville": "Lyon",
+   "distance_km": 1.6,
+   "prix": "25 €",
+   "inscrits": "0/8",
+   "niveau_playtomic": "0–7",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/806c9a9e-e6d7-450b-992d-341e839842ea"
+    }
+   ]
+  },
+  {
    "debut": "2026-10-29",
    "fin": "2026-10-29",
    "heure": "",
@@ -634,6 +692,25 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/272189"
+    }
+   ]
+  },
+  {
+   "debut": "2026-10-30",
+   "fin": "2026-10-30",
+   "heure": "17:00",
+   "niveaux": [],
+   "libelle": "SESSION DÉCOUVERTE",
+   "club": "Sportfield Lyon Part-Dieu",
+   "ville": "Lyon",
+   "distance_km": 1.6,
+   "prix": "25 €",
+   "inscrits": "0/8",
+   "niveau_playtomic": "0–7",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/83d18b0e-eca4-4e4a-a38a-177875cc787f"
     }
    ]
   },
@@ -871,6 +948,25 @@
   {
    "debut": "2026-11-01",
    "fin": "2026-11-01",
+   "heure": "14:00",
+   "niveaux": [],
+   "libelle": "TOURNOI AMICAL",
+   "club": "Sportfield Lyon Part-Dieu",
+   "ville": "Lyon",
+   "distance_km": 1.6,
+   "prix": "25 €",
+   "inscrits": "0/12",
+   "niveau_playtomic": "2–5",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/635f9dc4-a57a-4030-822b-3564aebb45a4"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-01",
+   "fin": "2026-11-01",
    "heure": "",
    "niveaux": [
     "P100"
@@ -1039,6 +1135,25 @@
   {
    "debut": "2026-11-03",
    "fin": "2026-11-03",
+   "heure": "19:00",
+   "niveaux": [],
+   "libelle": "MONTÉE / DESCENTE 4+",
+   "club": "PadelShot Lyon - Saint-Genis-Laval",
+   "ville": "Saint-Genis-Laval",
+   "distance_km": 8.2,
+   "prix": "20 €",
+   "inscrits": "0/16",
+   "niveau_playtomic": "3.5–7",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/511b39ce-202e-4ce6-adb8-a36a9d627de6"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-03",
+   "fin": "2026-11-03",
    "heure": "",
    "niveaux": [
     "P100"
@@ -1138,6 +1253,25 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/267873"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-04",
+   "fin": "2026-11-04",
+   "heure": "19:00",
+   "niveaux": [],
+   "libelle": "PADELSHOT PARTY DEBUTANT",
+   "club": "PadelShot Lyon - Craponne",
+   "ville": "Craponne",
+   "distance_km": 7.1,
+   "prix": "20 €",
+   "inscrits": "0/12",
+   "niveau_playtomic": "0–2.5",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/82d1ef9c-d885-4042-a5d4-3f0bd0a4d1ea"
     }
    ]
   },
@@ -1858,6 +1992,25 @@
   {
    "debut": "2026-11-10",
    "fin": "2026-11-10",
+   "heure": "19:00",
+   "niveaux": [],
+   "libelle": "PS PARTY INTERMÉDIAIRE",
+   "club": "PadelShot Lyon - Saint-Genis-Laval",
+   "ville": "Saint-Genis-Laval",
+   "distance_km": 8.2,
+   "prix": "20 €",
+   "inscrits": "13/16",
+   "niveau_playtomic": "2.5–5",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/68fc7fa0-ec57-4976-998b-9ff6580c387c"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-10",
+   "fin": "2026-11-10",
    "heure": "",
    "niveaux": [
     "P100"
@@ -1936,6 +2089,25 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/272191"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-11",
+   "fin": "2026-11-11",
+   "heure": "19:00",
+   "niveaux": [],
+   "libelle": "PADELSHOT PARTY INTERMEDIAIRE",
+   "club": "PadelShot Lyon - Craponne",
+   "ville": "Craponne",
+   "distance_km": 7.1,
+   "prix": "20 €",
+   "inscrits": "0/12",
+   "niveau_playtomic": "2.6–4",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/2fe95bff-b415-4ec0-a038-0c82d5843a31"
     }
    ]
   },
@@ -2398,6 +2570,25 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/264782"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-17",
+   "fin": "2026-11-17",
+   "heure": "19:00",
+   "niveaux": [],
+   "libelle": "PS PARTY DÉBUTANT",
+   "club": "PadelShot Lyon - Saint-Genis-Laval",
+   "ville": "Saint-Genis-Laval",
+   "distance_km": 8.2,
+   "prix": "20 €",
+   "inscrits": "0/16",
+   "niveau_playtomic": "0–2.5",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/051ad363-224e-4925-88b3-d6daf99a5206"
     }
    ]
   },
@@ -3769,6 +3960,25 @@
   {
    "debut": "2026-12-02",
    "fin": "2026-12-02",
+   "heure": "19:00",
+   "niveaux": [],
+   "libelle": "PADELSHOT PARTY DEBUTANT",
+   "club": "PadelShot Lyon - Craponne",
+   "ville": "Craponne",
+   "distance_km": 7.1,
+   "prix": "20 €",
+   "inscrits": "0/12",
+   "niveau_playtomic": "0–2.5",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/e92b2e04-a647-4183-93d9-109e098d0dd8"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-02",
+   "fin": "2026-12-02",
    "heure": "",
    "niveaux": [
     "P100"
@@ -4372,6 +4582,25 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268864"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-09",
+   "fin": "2026-12-09",
+   "heure": "19:00",
+   "niveaux": [],
+   "libelle": "PADELSHOT PARTY INTERMEDIAIRE",
+   "club": "PadelShot Lyon - Craponne",
+   "ville": "Craponne",
+   "distance_km": 7.1,
+   "prix": "20 €",
+   "inscrits": "0/12",
+   "niveau_playtomic": "2.6–4",
+   "sources": [
+    {
+     "nom": "Playtomic",
+     "lien": "https://playtomic.com/activities/tournaments/4f045c2e-1098-4acf-a7be-36321487cde6"
     }
    ]
   },

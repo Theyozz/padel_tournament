@@ -176,8 +176,12 @@ let etat = { ...DEFAUT };
 try { Object.assign(etat, JSON.parse(localStorage.getItem("padel-lyon-filtres") || "{}")); } catch (e) {}
 const sauver = () => { try { localStorage.setItem("padel-lyon-filtres", JSON.stringify({ ...etat, q: "" })); } catch (e) {} };
 
+const chipsDispo = niveauxDispo.concat(tournois.some(t => !t.niveaux.length) ? [HORS] : []);
+// Niveaux mémorisés qui n'existent plus (ex. Hors FFT quand Playtomic est en échec) : retour au défaut
+if (!etat.niveaux.some(n => chipsDispo.includes(n))) etat.niveaux = DEFAUT.niveaux;
+
 const chips = document.getElementById("chips");
-chips.innerHTML = niveauxDispo.concat(tournois.some(t => !t.niveaux.length) ? [HORS] : [])
+chips.innerHTML = chipsDispo
   .map(n => `<button type="button" class="chip${n === HORS ? " off" : ""}" data-n="${esc(n)}">${esc(n)}</button>`).join("");
 chips.addEventListener("click", (ev) => {
   const b = ev.target.closest(".chip"); if (!b) return;
@@ -209,7 +213,7 @@ if (ageH > 36) document.getElementById("stale").innerHTML =
 
 const ko = meta.sources.filter(s => !s.ok), ok = meta.sources.filter(s => s.ok);
 document.getElementById("footer").innerHTML =
-  ko.map(s => `<p class="warn"><strong>${esc(s.nom)}</strong> n'a pas pu être consulté lors de la dernière mise à jour : ${esc(s.erreur)}. Les autres sources sont affichées normalement.</p>`).join("") +
+  ko.map(s => `<p class="warn"><strong>${esc(s.nom)}</strong> n'a pas pu être consulté lors de la dernière mise à jour : ${esc(s.erreur)}. ${s.repris ? `Ses ${esc(s.repris)} tournois déjà connus restent affichés, sans les nouveautés.` : "Les autres sources sont affichées normalement."}</p>`).join("") +
   `<p>Récupéré le ${esc(fmt({ day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit" }).format(genere))}, ` +
   `du ${esc(fmt({ day: "numeric", month: "long" }).format(parse(meta.debut)))} au ${esc(fmt({ day: "numeric", month: "long", year: "numeric" }).format(parse(meta.fin)))}.</p>` +
   `<p>Événements trouvés : ${ok.length ? esc(ok.map(s => `${s.nom} ${s.nb || "0 (aucun tournoi publié)"}`).join(", ")) : "aucun"}` +

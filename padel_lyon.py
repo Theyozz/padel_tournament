@@ -789,6 +789,8 @@ def parse_args(argv=None):
                                    "sauf si --json est donné)")
     ap.add_argument("--no-open", action="store_true", help="ne pas ouvrir la page dans le navigateur")
     ap.add_argument("--rafraichir", action="store_true", help="ignorer le cache (.cache/)")
+    ap.add_argument("--reprendre", help="data.json précédent : si une source échoue, ses tournois "
+                    "à venir y sont repris (ex. Playtomic bloqué depuis GitHub Actions)")
     a = ap.parse_args(argv)
     a.fin = ajouter_mois(a.debut, a.mois)
     if a.html is None and not a.json:
@@ -798,6 +800,25 @@ def parse_args(argv=None):
     a.hors_fft = not a.sans_hors_fft
     a.playtomic_clubs = [x.strip() for x in a.playtomic_clubs.split(",") if x.strip()]
     return a
+
+
+def reprendre(path, etat, cfg):
+    """Tournois des sources en échec, repris du data.json précédent (seulement ceux qui ne
+    viennent que de ces sources et qui sont encore dans la période)."""
+    ko = {s["nom"]: s for s in etat if not s["ok"]}
+    try:
+        anciens = json.loads(Path(path).read_text("utf-8"))["tournois"] if ko else []
+    except (OSError, ValueError, KeyError) as exc:
+        log(f"  Reprise impossible depuis {path} : {exc}")
+        return []
+    repris = [t for t in anciens if t["sources"] and all(x["nom"] in ko for x in t["sources"])
+              and cfg.debut.isoformat() <= t["debut"] <= cfg.fin.isoformat()]
+    for t in repris:
+        ko[t["sources"][0]["nom"]]["repris"] = ko[t["sources"][0]["nom"]].get("repris", 0) + 1
+    for nom, st in ko.items():
+        if st.get("repris"):
+            log(f"  {nom} : {st['repris']} tournois repris de {path}")
+    return [{**{k: "" for k in CHAMPS_PAGE}, **t} for t in repris]
 
 
 def main(argv=None):
@@ -825,6 +846,8 @@ def main(argv=None):
 
     filtres = [e for e in tous if garder(e, cfg)]
     retenus, nb_doublons = fusionner(filtres)
+    if cfg.reprendre:
+        retenus += reprendre(cfg.reprendre, etat, cfg)
     retenus.sort(key=lambda e: (e["debut"], e["heure"] or "99", e["distance_km"] or 0))
 
     print("\n" + "─" * 78)
