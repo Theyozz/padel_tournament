@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-22",
-  "fin": "2027-02-22",
-  "genere": "2026-10-22T09:58",
+  "debut": "2026-10-23",
+  "fin": "2027-02-23",
+  "genere": "2026-10-23T09:51",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 405
+    "nb": 401
    },
    {
     "nom": "Playtomic",
@@ -28,111 +28,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-22",
-   "fin": "2026-10-22",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 - Lyon V&V Padel",
-   "club": "LYON PADEL",
-   "ville": "VAULX EN VELIN",
-   "distance_km": 5.9,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/300394"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-22",
-   "fin": "2026-10-22",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "ALL IN 250",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269989"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-22",
-   "fin": "2026-10-22",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 H SOIREE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267345"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-22",
-   "fin": "2026-10-22",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 HOMMES SOIREE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271014"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-22",
-   "fin": "2026-10-22",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "TOURNOI TPBJ P100",
-   "club": "TENNIS PADEL BOURGOIN-JALLIEU",
-   "ville": "BOURGOIN JALLIEU",
-   "distance_km": 38.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270392"
-    }
-   ]
-  },
   {
    "debut": "2026-10-23",
    "fin": "2026-10-23",
@@ -6514,6 +6409,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270048"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-22",
+   "fin": "2027-02-22",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25H - Esprit Padel La Boisse",
+   "club": "ESPRIT PADEL LA BOISSE",
+   "ville": "LA BOISSE",
+   "distance_km": 19.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271308"
     }
    ]
   }
