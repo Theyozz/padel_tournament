@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-23",
-  "fin": "2027-02-23",
-  "genere": "2026-10-23T09:51",
+  "debut": "2026-10-24",
+  "fin": "2027-02-24",
+  "genere": "2026-10-24T09:22",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 401
+    "nb": 392
    },
    {
     "nom": "Playtomic",
@@ -29,153 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-23",
-   "fin": "2026-10-23",
-   "heure": "09:00",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 en journée (9h00 16H00)",
-   "club": "ESPRIT PADEL CLUB",
-   "ville": "ST PRIEST",
-   "distance_km": 12.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271446"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-23",
-   "fin": "2026-10-23",
-   "heure": "17:00",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 Hommes (17h-23h)",
-   "club": "GONES PADEL",
-   "ville": "Irigny",
-   "distance_km": 8.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/268843"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-23",
-   "fin": "2026-10-23",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 PS SAINT GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269448"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-23",
-   "fin": "2026-10-23",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "TC TREVOUX - P50 H - 23/10",
-   "club": "TREVOUX (TENNIS CLUB DE)",
-   "ville": "TREVOUX",
-   "distance_km": 21.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/313951"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-23",
-   "fin": "2026-10-23",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "ALL IN P250 Villefranche",
-   "club": "ALL IN PADEL 69",
-   "ville": "VILLEFRANCHE SUR SAONE",
-   "distance_km": 27.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269965"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-23",
-   "fin": "2026-10-23",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 HOMMES JOURNEE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271015"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-23",
-   "fin": "2026-10-23",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 du Vendredi soir - POLE PADEL BELLEVILLE",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303748"
-    }
-   ]
-  },
   {
    "debut": "2026-10-24",
    "fin": "2026-10-24",
