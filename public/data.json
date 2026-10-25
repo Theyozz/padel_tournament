@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-24",
-  "fin": "2027-02-24",
-  "genere": "2026-10-24T09:22",
+  "debut": "2026-10-25",
+  "fin": "2027-02-25",
+  "genere": "2026-10-25T09:41",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 392
+    "nb": 383
    },
    {
     "nom": "Playtomic",
@@ -29,111 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-24",
-   "fin": "2026-10-24",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 - Hommes - En partenariat avec Chamrousse",
-   "club": "LYON PADEL",
-   "ville": "VAULX EN VELIN",
-   "distance_km": 5.9,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/306224"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-24",
-   "fin": "2026-10-24",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 PS SAINT GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269553"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-24",
-   "fin": "2026-10-24",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 Padel Cotière",
-   "club": "NEYRON (TENNIS CLUB DE)",
-   "ville": "NEYRON",
-   "distance_km": 9.5,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271772"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-24",
-   "fin": "2026-10-24",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 TCD DOMMARTIN",
-   "club": "DOMMARTIN (TENNIS CLUB DE)",
-   "ville": "DOMMARTIN",
-   "distance_km": 11.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271825"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-24",
-   "fin": "2026-10-24",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 du Samedi après-midi - POLE PADEL BELLEVILLE",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303749"
-    }
-   ]
-  },
   {
    "debut": "2026-10-25",
    "fin": "2026-10-25",
@@ -5323,27 +5218,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P500"
-   ],
-   "libelle": "ALL IN P500",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270376"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P50"
    ],
    "libelle": "ALL IN P50",
@@ -5357,6 +5231,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/303959"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P500"
+   ],
+   "libelle": "ALL IN P500",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/270376"
     }
    ]
   },
@@ -6512,6 +6407,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271308"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-24",
+   "fin": "2027-02-24",
+   "heure": "09:00",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 Hommes Flash (9h-13h)",
+   "club": "GONES PADEL",
+   "ville": "Irigny",
+   "distance_km": 8.0,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268880"
     }
    ]
   }
