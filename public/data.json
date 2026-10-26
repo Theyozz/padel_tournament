@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-25",
-  "fin": "2027-02-25",
-  "genere": "2026-10-25T09:41",
+  "debut": "2026-10-26",
+  "fin": "2027-02-26",
+  "genere": "2026-10-26T10:54",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 383
+    "nb": 380
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 12
+    "repris": 11
    },
    {
     "nom": "4PADEL",
@@ -29,109 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-25",
-   "fin": "2026-10-25",
-   "heure": "14:00",
-   "niveaux": [],
-   "libelle": "TOURNOI AMICAL",
-   "club": "Sportfield Lyon Part-Dieu",
-   "ville": "Lyon",
-   "distance_km": 1.6,
-   "prix": "25 €",
-   "inscrits": "0/12",
-   "niveau_playtomic": "2–5",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/77652718-681d-40f5-9e13-088d17731325"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-25",
-   "fin": "2026-10-25",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 TC LA PAPE",
-   "club": "PAPE (TENNIS CLUB DE LA)",
-   "ville": "RILLIEUX LA PAPE",
-   "distance_km": 6.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/305128"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-25",
-   "fin": "2026-10-25",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 MESSIEURS ST MAURICE DE BEYNOST",
-   "club": "SAINT MAURICE (TENNIS)",
-   "ville": "ST MAURICE DE BEYNOST",
-   "distance_km": 13.6,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/305874"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-25",
-   "fin": "2026-10-25",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 H / P50 D JOURNEE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267346"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-25",
-   "fin": "2026-10-25",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 Journée",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/272188"
-    }
-   ]
-  },
   {
    "debut": "2026-10-26",
    "fin": "2026-10-26",
@@ -1919,6 +1816,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271232"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-11",
+   "fin": "2026-11-11",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "TC TREVOUX - P50 H - 11/11",
+   "club": "TREVOUX (TENNIS CLUB DE)",
+   "ville": "TREVOUX",
+   "distance_km": 21.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/318922"
     }
    ]
   },
@@ -3973,6 +3891,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271640"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-05",
+   "fin": "2026-12-05",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "TC TREVOUX - P100 H - 05/12",
+   "club": "TREVOUX (TENNIS CLUB DE)",
+   "ville": "TREVOUX",
+   "distance_km": 21.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/319496"
     }
    ]
   },
