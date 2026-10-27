@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-26",
-  "fin": "2027-02-26",
-  "genere": "2026-10-26T10:54",
+  "debut": "2026-10-27",
+  "fin": "2027-02-27",
+  "genere": "2026-10-27T10:19",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 380
+    "nb": 373
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 11
+    "repris": 10
    },
    {
     "nom": "4PADEL",
@@ -29,130 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-26",
-   "fin": "2026-10-26",
-   "heure": "18:00",
-   "niveaux": [],
-   "libelle": "AMERICANO",
-   "club": "Sportfield Lyon Part-Dieu",
-   "ville": "Lyon",
-   "distance_km": 1.6,
-   "prix": "25 €",
-   "inscrits": "1/8",
-   "niveau_playtomic": "0–7",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/7d27c4eb-f563-431f-957e-2506f92eba1d"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-26",
-   "fin": "2026-10-26",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 Du Lundi",
-   "club": "PADEL SHOT LYON",
-   "ville": "CRAPONNE",
-   "distance_km": 7.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267190"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-26",
-   "fin": "2026-10-26",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 PS ST GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/265863"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-26",
-   "fin": "2026-10-26",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271208"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-26",
-   "fin": "2026-10-26",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 H Journée Olympia",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/264761"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-26",
-   "fin": "2026-10-26",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN P100 Villefranche",
-   "club": "ALL IN PADEL 69",
-   "ville": "VILLEFRANCHE SUR SAONE",
-   "distance_km": 27.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269967"
-    }
-   ]
-  },
   {
    "debut": "2026-10-27",
    "fin": "2026-10-27",
@@ -3891,27 +3767,6 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271640"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-05",
-   "fin": "2026-12-05",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "TC TREVOUX - P100 H - 05/12",
-   "club": "TREVOUX (TENNIS CLUB DE)",
-   "ville": "TREVOUX",
-   "distance_km": 21.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/319496"
     }
    ]
   },
