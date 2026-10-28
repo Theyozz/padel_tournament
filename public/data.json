@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-27",
-  "fin": "2027-02-27",
-  "genere": "2026-10-27T10:19",
+  "debut": "2026-10-28",
+  "fin": "2027-02-28",
+  "genere": "2026-10-28T11:11",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 373
+    "nb": 370
    },
    {
     "nom": "Playtomic",
@@ -29,69 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-27",
-   "fin": "2026-10-27",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN COUNTRY CLUB P50H",
-   "club": "ALL IN COUNTRY CLUB DECINES",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267698"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-27",
-   "fin": "2026-10-27",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303954"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-27",
-   "fin": "2026-10-27",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 H SOIREE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267347"
-    }
-   ]
-  },
   {
    "debut": "2026-10-28",
    "fin": "2026-10-28",
@@ -1990,27 +1927,6 @@
    ]
   },
   {
-   "debut": "2026-11-14",
-   "fin": "2026-11-14",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 homme Vienne",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269219"
-    }
-   ]
-  },
-  {
    "debut": "2026-11-15",
    "fin": "2026-11-15",
    "heure": "",
@@ -2677,6 +2593,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/305885"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-22",
+   "fin": "2026-11-22",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 homme Vienne",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/269219"
     }
    ]
   },
@@ -5012,27 +4949,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303959"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P500"
    ],
    "libelle": "ALL IN P500",
@@ -5046,6 +4962,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270376"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "ALL IN P50",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/303959"
     }
    ]
   },
