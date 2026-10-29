@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-28",
+  "debut": "2026-10-29",
   "fin": "2027-02-28",
-  "genere": "2026-10-28T11:11",
+  "genere": "2026-10-29T11:24",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 370
+    "nb": 372
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 10
+    "repris": 9
    },
    {
     "nom": "4PADEL",
@@ -29,25 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-28",
-   "fin": "2026-10-28",
-   "heure": "11:30",
-   "niveaux": [],
-   "libelle": "AMERICANO",
-   "club": "Sportfield Lyon Part-Dieu",
-   "ville": "Lyon",
-   "distance_km": 1.6,
-   "prix": "25 €",
-   "inscrits": "0/8",
-   "niveau_playtomic": "0–7",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/806c9a9e-e6d7-450b-992d-341e839842ea"
-    }
-   ]
-  },
   {
    "debut": "2026-10-29",
    "fin": "2026-10-29",
