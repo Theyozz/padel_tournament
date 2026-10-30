@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-29",
+  "debut": "2026-10-30",
   "fin": "2027-02-28",
-  "genere": "2026-10-29T11:24",
+  "genere": "2026-10-30T11:16",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 372
+    "nb": 370
    },
    {
     "nom": "Playtomic",
@@ -29,111 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-29",
-   "fin": "2026-10-29",
-   "heure": "",
-   "niveaux": [
-    "P500"
-   ],
-   "libelle": "ALL IN 500",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269990"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-29",
-   "fin": "2026-10-29",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 Flash TCD Dommartin",
-   "club": "DOMMARTIN (TENNIS CLUB DE)",
-   "ville": "DOMMARTIN",
-   "distance_km": 11.7,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/312808"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-29",
-   "fin": "2026-10-29",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 n°7 Corbas",
-   "club": "CORBAS (TENNIS CLUB DE)",
-   "ville": "CORBAS",
-   "distance_km": 12.5,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271961"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-29",
-   "fin": "2026-10-29",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 H SOIREE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267349"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-29",
-   "fin": "2026-10-29",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 soirée",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/272189"
-    }
-   ]
-  },
   {
    "debut": "2026-10-30",
    "fin": "2026-10-30",
@@ -597,7 +492,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P100 Mardi matin 3/11",
+   "libelle": "P100 MESSIEURS AS CALUIRE mardi 3/11 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -1351,6 +1246,27 @@
    "niveaux": [
     "P50"
    ],
+   "libelle": "P50 MESSIEURS CHASSIEU",
+   "club": "CHASSIEU TENNIS",
+   "ville": "CHASSIEU",
+   "distance_km": 9.7,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/314769"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-09",
+   "fin": "2026-11-09",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
    "libelle": "P50H - Esprit Padel La Boisse",
    "club": "ESPRIT PADEL LA BOISSE",
    "ville": "LA BOISSE",
@@ -1454,7 +1370,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P100 Mardi matin 10/11",
+   "libelle": "P100 MESSIEURS AS CALUIRE mardi 10/11 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -1851,7 +1767,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P 100 Samedi matin 14 Novembre",
+   "libelle": "P100 MESSIEURS AS CALUIRE sam 14/11 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -2553,6 +2469,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/314372"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-22",
+   "fin": "2026-11-22",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 TC LA PAPE",
+   "club": "PAPE (TENNIS CLUB DE LA)",
+   "ville": "RILLIEUX LA PAPE",
+   "distance_km": 6.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/305128"
     }
    ]
   },
@@ -4930,27 +4867,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P500"
-   ],
-   "libelle": "ALL IN P500",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270376"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P50"
    ],
    "libelle": "ALL IN P50",
@@ -4964,6 +4880,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/303959"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P500"
+   ],
+   "libelle": "ALL IN P500",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/270376"
     }
    ]
   },
