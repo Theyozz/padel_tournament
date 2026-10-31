@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-30",
+  "debut": "2026-10-31",
   "fin": "2027-02-28",
-  "genere": "2026-10-30T11:16",
+  "genere": "2026-10-31T10:48",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 370
+    "nb": 364
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 9
+    "repris": 8
    },
    {
     "nom": "4PADEL",
@@ -29,151 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-30",
-   "fin": "2026-10-30",
-   "heure": "17:00",
-   "niveaux": [],
-   "libelle": "SESSION DÉCOUVERTE",
-   "club": "Sportfield Lyon Part-Dieu",
-   "ville": "Lyon",
-   "distance_km": 1.6,
-   "prix": "25 €",
-   "inscrits": "0/8",
-   "niveau_playtomic": "0–7",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/83d18b0e-eca4-4e4a-a38a-177875cc787f"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-30",
-   "fin": "2026-10-31",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P50 FEMMES & P25 HOMMES",
-   "club": "LYON PADEL",
-   "ville": "VAULX EN VELIN",
-   "distance_km": 5.9,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/306234"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-30",
-   "fin": "2026-10-30",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 PS ST Genis Laval",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269459"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-30",
-   "fin": "2026-10-30",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271212"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-30",
-   "fin": "2026-10-30",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "TC TREVOUX - P25 H - 30/10",
-   "club": "TREVOUX (TENNIS CLUB DE)",
-   "ville": "TREVOUX",
-   "distance_km": 21.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/313639"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-30",
-   "fin": "2026-10-30",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 H Journée tennis padel pont-évêque",
-   "club": "PONT EVEQUE TC",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270741"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-30",
-   "fin": "2026-10-30",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 HOMME",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "22 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/310136"
-    }
-   ]
-  },
   {
    "debut": "2026-10-31",
    "fin": "2026-10-31",
@@ -1954,7 +1809,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P100 Mardi matin 17/11",
+   "libelle": "P100 MESSIEURS AS CALUIRE mardi 17/11 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -2710,7 +2565,7 @@
    "niveaux": [
     "P50"
    ],
-   "libelle": "P 50 mardi matin 24/11",
+   "libelle": "P50 MESSIEURS AS CALUIRE mardi 24/11 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -3044,27 +2899,6 @@
    "fin": "2026-11-28",
    "heure": "",
    "niveaux": [
-    "P100"
-   ],
-   "libelle": "P 100 Mixte Samedi 28 Novembre Matin",
-   "club": "CALUIRE (TENNIS CLUB AS)",
-   "ville": "CALUIRE ET CUIRE",
-   "distance_km": 4.9,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270640"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-28",
-   "fin": "2026-11-28",
-   "heure": "",
-   "niveaux": [
     "P25"
    ],
    "libelle": "P25 lyon padel vv",
@@ -3277,7 +3111,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P100 Mardi matin 01/12",
+   "libelle": "P100 MESSIEURS AS CALUIRE mardi 01/12 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -3884,7 +3718,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P100 Mardi matin 8/12",
+   "libelle": "P100 MESSIEURS AS CALUIRE mardi 08/12 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -4155,7 +3989,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P 100 Samedi 12 Decembre Matinée",
+   "libelle": "P100 MESSIEURS AS CALUIRE samedi 12/12 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -4344,7 +4178,7 @@
    "niveaux": [
     "P100"
    ],
-   "libelle": "P100 Mardi matin 15/12",
+   "libelle": "P100 MESSIEURS AS CALUIRE mardi 15/12 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
@@ -5037,7 +4871,7 @@
    "niveaux": [
     "P50"
    ],
-   "libelle": "P 50 mardi 5 Janvier matin",
+   "libelle": "P50 MESSIEURS AS CALUIRE mardi 05/01 (matin)",
    "club": "CALUIRE (TENNIS CLUB AS)",
    "ville": "CALUIRE ET CUIRE",
    "distance_km": 4.9,
