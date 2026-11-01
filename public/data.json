@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-10-31",
-  "fin": "2027-02-28",
-  "genere": "2026-10-31T10:48",
+  "debut": "2026-11-01",
+  "fin": "2027-03-01",
+  "genere": "2026-11-01T11:46",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 364
+    "nb": 355
    },
    {
     "nom": "Playtomic",
@@ -29,111 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-10-31",
-   "fin": "2026-10-31",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 Hommes TCL",
-   "club": "LYON (TENNIS CLUB DE)",
-   "ville": "VILLEURBANNE",
-   "distance_km": 2.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271510"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-31",
-   "fin": "2026-10-31",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P500D/P250H Du Samedi CRAPONNE",
-   "club": "PADEL SHOT LYON",
-   "ville": "CRAPONNE",
-   "distance_km": 7.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267625"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-31",
-   "fin": "2026-10-31",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 Matinée TCSP",
-   "club": "SAINT PRIEST (TENNIS CLUB DE)",
-   "ville": "ST PRIEST",
-   "distance_km": 12.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271969"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-31",
-   "fin": "2026-10-31",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 HOMMES",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "22 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/310140"
-    }
-   ]
-  },
-  {
-   "debut": "2026-10-31",
-   "fin": "2026-10-31",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 hommes",
-   "club": "CLONAS SUR VAREZE TC",
-   "ville": "CLONAS SUR VAREZE",
-   "distance_km": 39.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271368"
-    }
-   ]
-  },
   {
    "debut": "2026-11-01",
    "fin": "2026-11-01",
@@ -5911,6 +5806,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268880"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-28",
+   "fin": "2027-02-28",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Padel Cotière",
+   "club": "NEYRON (TENNIS CLUB DE)",
+   "ville": "NEYRON",
+   "distance_km": 9.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271909"
     }
    ]
   }
