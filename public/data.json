@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-01",
-  "fin": "2027-03-01",
-  "genere": "2026-11-01T11:46",
+  "debut": "2026-11-02",
+  "fin": "2027-03-02",
+  "genere": "2026-11-02T13:17",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 355
+    "nb": 353
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 8
+    "repris": 7
    },
    {
     "nom": "4PADEL",
@@ -29,67 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-01",
-   "fin": "2026-11-01",
-   "heure": "14:00",
-   "niveaux": [],
-   "libelle": "TOURNOI AMICAL",
-   "club": "Sportfield Lyon Part-Dieu",
-   "ville": "Lyon",
-   "distance_km": 1.6,
-   "prix": "25 €",
-   "inscrits": "0/12",
-   "niveau_playtomic": "2–5",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/635f9dc4-a57a-4030-822b-3564aebb45a4"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-01",
-   "fin": "2026-11-01",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 H JOURNEE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267871"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-01",
-   "fin": "2026-11-01",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 HOMMES JOURNEE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271017"
-    }
-   ]
-  },
   {
    "debut": "2026-11-02",
    "fin": "2026-11-02",
@@ -3351,6 +3290,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271640"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-05",
+   "fin": "2026-12-05",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "TC TREVOUX P100 H 05/12",
+   "club": "TREVOUX (TENNIS CLUB DE)",
+   "ville": "TREVOUX",
+   "distance_km": 21.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/320167"
     }
    ]
   },
