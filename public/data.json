@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-02",
-  "fin": "2027-03-02",
-  "genere": "2026-11-02T13:17",
+  "debut": "2026-11-03",
+  "fin": "2027-03-03",
+  "genere": "2026-11-03T12:43",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 353
+    "nb": 396
    },
    {
     "nom": "Playtomic",
@@ -29,132 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-02",
-   "fin": "2026-11-02",
-   "heure": "09:00",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 en journée (9h00 16H00)",
-   "club": "ESPRIT PADEL CLUB",
-   "ville": "ST PRIEST",
-   "distance_km": 12.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271448"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-02",
-   "fin": "2026-11-02",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 Du Lundi CRAPONNE",
-   "club": "PADEL SHOT LYON",
-   "ville": "CRAPONNE",
-   "distance_km": 7.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267217"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-02",
-   "fin": "2026-11-02",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 PS ST GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/265867"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-02",
-   "fin": "2026-11-02",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 MESSIEURS SAINT- MAURICE DE BEYNOST",
-   "club": "SAINT MAURICE (TENNIS)",
-   "ville": "ST MAURICE DE BEYNOST",
-   "distance_km": 13.6,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/268969"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-02",
-   "fin": "2026-11-02",
-   "heure": "",
-   "niveaux": [
-    "P500"
-   ],
-   "libelle": "P500 JOURNEE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/263809"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-02",
-   "fin": "2026-11-02",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50 Villefranche",
-   "club": "ALL IN PADEL 69",
-   "ville": "VILLEFRANCHE SUR SAONE",
-   "distance_km": 27.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269980"
-    }
-   ]
-  },
   {
    "debut": "2026-11-03",
    "fin": "2026-11-03",
@@ -3552,7 +3426,7 @@
    "niveaux": [
     "P250"
    ],
-   "libelle": "P250 HOMMES JOURNEE",
+   "libelle": "P250 HOMMES SOIREE",
    "club": "MAISON PADEL",
    "ville": "ST JEAN DE BOURNAY",
    "distance_km": 36.7,
@@ -4489,6 +4363,90 @@
    ]
   },
   {
+   "debut": "2026-12-21",
+   "fin": "2026-12-21",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 H journée Olympia",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/264772"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-21",
+   "fin": "2026-12-21",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 H JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268174"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-21",
+   "fin": "2026-12-21",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 HOMMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271116"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-22",
+   "fin": "2026-12-22",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268176"
+    }
+   ]
+  },
+  {
    "debut": "2026-12-24",
    "fin": "2026-12-24",
    "heure": "",
@@ -4510,6 +4468,27 @@
    ]
   },
   {
+   "debut": "2026-12-26",
+   "fin": "2026-12-26",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 journée - Vienne",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/269364"
+    }
+   ]
+  },
+  {
    "debut": "2026-12-27",
    "fin": "2026-12-27",
    "heure": "",
@@ -4527,6 +4506,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271264"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-27",
+   "fin": "2026-12-27",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268180"
     }
    ]
   },
@@ -4594,6 +4594,48 @@
    ]
   },
   {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268185"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-30",
+   "fin": "2026-12-30",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268191"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-02",
    "fin": "2027-01-02",
    "heure": "09:00",
@@ -4653,6 +4695,48 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271265"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-03",
+   "fin": "2027-01-03",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 H / P50 D JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268387"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-03",
+   "fin": "2027-01-03",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 journée",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/272194"
     }
    ]
   },
@@ -4720,6 +4804,27 @@
    ]
   },
   {
+   "debut": "2027-01-04",
+   "fin": "2027-01-04",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 HOMMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271121"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-05",
    "fin": "2027-01-05",
    "heure": "",
@@ -4758,6 +4863,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270377"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-05",
+   "fin": "2027-01-05",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268388"
     }
    ]
   },
@@ -4821,6 +4947,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271268"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-07",
+   "fin": "2027-01-07",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Soirée",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/272195"
     }
    ]
   },
@@ -5014,6 +5161,27 @@
    ]
   },
   {
+   "debut": "2027-01-10",
+   "fin": "2027-01-10",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Homme Vienne",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/269226"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-11",
    "fin": "2027-01-11",
    "heure": "10:00",
@@ -5098,6 +5266,69 @@
    ]
   },
   {
+   "debut": "2027-01-11",
+   "fin": "2027-01-11",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H Journée Olympia",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/264777"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-11",
+   "fin": "2027-01-11",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 HOMMES SOIREE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271127"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-12",
+   "fin": "2027-01-12",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268389"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-15",
    "fin": "2027-01-15",
    "heure": "",
@@ -5161,6 +5392,27 @@
    ]
   },
   {
+   "debut": "2027-01-15",
+   "fin": "2027-01-15",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 HOMMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271128"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-16",
    "fin": "2027-01-16",
    "heure": "",
@@ -5178,6 +5430,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/267629"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-17",
+   "fin": "2027-01-17",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H / P100 D JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268390"
     }
    ]
   },
@@ -5220,6 +5493,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/265888"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-18",
+   "fin": "2027-01-18",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 H  journée Olympia",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/264778"
     }
    ]
   },
@@ -5283,6 +5577,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271711"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-19",
+   "fin": "2027-01-19",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268391"
     }
    ]
   },
@@ -5392,6 +5707,111 @@
    ]
   },
   {
+   "debut": "2027-01-23",
+   "fin": "2027-01-23",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 HOMMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271129"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-24",
+   "fin": "2027-01-24",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 journée",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/272197"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-25",
+   "fin": "2027-01-25",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H Journée Olympia",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/264779"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-25",
+   "fin": "2027-01-25",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 HOMMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271132"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-26",
+   "fin": "2027-01-26",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268532"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-28",
    "fin": "2027-01-28",
    "heure": "",
@@ -5413,6 +5833,48 @@
    ]
   },
   {
+   "debut": "2027-01-28",
+   "fin": "2027-01-28",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268537"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-29",
+   "fin": "2027-01-29",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 HOMMES SOIREE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271133"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-30",
    "fin": "2027-01-30",
    "heure": "",
@@ -5430,6 +5892,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271288"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-30",
+   "fin": "2027-01-30",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Hommes Apres Midi",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/269750"
     }
    ]
   },
@@ -5476,6 +5959,48 @@
    ]
   },
   {
+   "debut": "2027-02-01",
+   "fin": "2027-02-01",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 H journée Olympia",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/264780"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-02",
+   "fin": "2027-02-02",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268560"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-03",
    "fin": "2027-02-03",
    "heure": "",
@@ -5518,6 +6043,27 @@
    ]
   },
   {
+   "debut": "2027-02-04",
+   "fin": "2027-02-04",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 soirée",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/272198"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-06",
    "fin": "2027-02-06",
    "heure": "",
@@ -5539,6 +6085,48 @@
    ]
   },
   {
+   "debut": "2027-02-06",
+   "fin": "2027-02-06",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 journée - Vienne",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/269366"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-06",
+   "fin": "2027-02-06",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 HOMMES SOIREE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271145"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-07",
    "fin": "2027-02-07",
    "heure": "",
@@ -5556,6 +6144,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271299"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-07",
+   "fin": "2027-02-07",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 H / P50 D JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268561"
     }
    ]
   },
@@ -5623,6 +6232,48 @@
    ]
   },
   {
+   "debut": "2027-02-08",
+   "fin": "2027-02-08",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 H Journée Olympia",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/264781"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-09",
+   "fin": "2027-02-09",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 H SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/268562"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-11",
    "fin": "2027-02-11",
    "heure": "",
@@ -5640,6 +6291,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270391"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-12",
+   "fin": "2027-02-12",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 HOMMES SOIREE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271158"
     }
    ]
   },
