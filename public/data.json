@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-04",
-  "fin": "2027-03-04",
-  "genere": "2026-11-04T12:51",
+  "debut": "2026-11-05",
+  "fin": "2027-03-05",
+  "genere": "2026-11-05T13:01",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 419
+    "nb": 422
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 6
+    "repris": 5
    },
    {
     "nom": "4PADEL",
@@ -29,67 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-04",
-   "fin": "2026-11-04",
-   "heure": "19:00",
-   "niveaux": [],
-   "libelle": "PADELSHOT PARTY DEBUTANT",
-   "club": "PadelShot Lyon - Craponne",
-   "ville": "Craponne",
-   "distance_km": 7.1,
-   "prix": "20 €",
-   "inscrits": "0/12",
-   "niveau_playtomic": "0–2.5",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/82d1ef9c-d885-4042-a5d4-3f0bd0a4d1ea"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-04",
-   "fin": "2026-11-04",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271221"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-04",
-   "fin": "2026-11-04",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "Tournoi flash du Mercredi 4 novembre",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314361"
-    }
-   ]
-  },
   {
    "debut": "2026-11-05",
    "fin": "2026-11-05",
@@ -2794,6 +2733,27 @@
    ]
   },
   {
+   "debut": "2026-11-30",
+   "fin": "2026-11-30",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 Hommes et Dames",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/322340"
+    }
+   ]
+  },
+  {
    "debut": "2026-12-01",
    "fin": "2026-12-01",
    "heure": "",
@@ -3626,6 +3586,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270370"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-11",
+   "fin": "2026-12-11",
+   "heure": "13:00",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 13h - 19h Bois d'Ars",
+   "club": "TENNIS & PADEL CLUB DU BOIS D'ARS",
+   "ville": "Limonest",
+   "distance_km": 10.6,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/322707"
     }
    ]
   },
