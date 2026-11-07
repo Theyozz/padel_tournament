@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-06",
-  "fin": "2027-03-06",
-  "genere": "2026-11-06T12:47",
+  "debut": "2026-11-07",
+  "fin": "2027-03-07",
+  "genere": "2026-11-07T11:36",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 427
+    "nb": 419
    },
    {
     "nom": "Playtomic",
@@ -29,174 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50H/P50D Du Vendredi CRAPONNE",
-   "club": "PADEL SHOT LYON",
-   "ville": "CRAPONNE",
-   "distance_km": 7.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267224"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 Hommes",
-   "club": "GONES PADEL",
-   "ville": "Irigny",
-   "distance_km": 8.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/309217"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 PS SAINT GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269500"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271223"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 JOURNEE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/263810"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "ALL IN P250 Villefranche",
-   "club": "ALL IN PADEL 69",
-   "ville": "VILLEFRANCHE SUR SAONE",
-   "distance_km": 27.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269981"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 HOMMES SOIREE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271018"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-06",
-   "fin": "2026-11-06",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 HOMME",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/320071"
-    }
-   ]
-  },
   {
    "debut": "2026-11-07",
    "fin": "2026-11-07",
@@ -904,6 +736,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/263813"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-11",
+   "fin": "2026-11-11",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50H \"LAST MINUTE\"",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/318393"
     }
    ]
   },
@@ -4776,7 +4629,7 @@
    "club": "MAISON PADEL",
    "ville": "ST JEAN DE BOURNAY",
    "distance_km": 36.7,
-   "prix": "",
+   "prix": "25 €",
    "inscrits": "",
    "niveau_playtomic": "",
    "sources": [
