@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-08",
-  "fin": "2027-03-08",
-  "genere": "2026-11-08T11:50",
+  "debut": "2026-11-09",
+  "fin": "2027-03-09",
+  "genere": "2026-11-09T13:43",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 406
+    "nb": 401
    },
    {
     "nom": "Playtomic",
@@ -29,48 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-08",
-   "fin": "2026-11-08",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 HOMMES JOURNÉE",
-   "club": "DARDILLY CHAMPAGNE (TENNIS CLUB)",
-   "ville": "CHAMPAGNE AU MONT D OR",
-   "distance_km": 6.5,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/300914"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-08",
-   "fin": "2026-11-08",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 MESSIEURS SAINT-MAURICE DE BEYNOST",
-   "club": "SAINT MAURICE (TENNIS)",
-   "ville": "ST MAURICE DE BEYNOST",
-   "distance_km": 13.6,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/268991"
-    }
-   ]
-  },
   {
    "debut": "2026-11-09",
    "fin": "2026-11-09",
@@ -4178,27 +4136,6 @@
    ]
   },
   {
-   "debut": "2026-12-24",
-   "fin": "2026-12-24",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271262"
-    }
-   ]
-  },
-  {
    "debut": "2026-12-26",
    "fin": "2026-12-26",
    "heure": "",
@@ -4216,27 +4153,6 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/269364"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-27",
-   "fin": "2026-12-27",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271264"
     }
    ]
   },
@@ -5085,6 +5001,27 @@
    "fin": "2027-01-12",
    "heure": "",
    "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 du 12/01 Padel Côtière",
+   "club": "PADEL COTIERE",
+   "ville": "Neyron",
+   "distance_km": 9.6,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/321654"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-12",
+   "fin": "2027-01-12",
+   "heure": "",
+   "niveaux": [
     "P100"
    ],
    "libelle": "ALL IN COUNTRY CLUB P100H",
@@ -5896,6 +5833,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268532"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-28",
+   "fin": "2027-01-28",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 du 28/01 Padel Côtière",
+   "club": "PADEL COTIERE",
+   "ville": "Neyron",
+   "distance_km": 9.6,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/321652"
     }
    ]
   },
