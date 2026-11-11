@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-10",
-  "fin": "2027-03-10",
-  "genere": "2026-11-10T13:23",
+  "debut": "2026-11-11",
+  "fin": "2027-03-11",
+  "genere": "2026-11-11T12:33",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 393
+    "nb": 389
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 5
+    "repris": 4
    },
    {
     "nom": "4PADEL",
@@ -29,130 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-10",
-   "fin": "2026-11-10",
-   "heure": "19:00",
-   "niveaux": [],
-   "libelle": "PS PARTY INTERMÉDIAIRE",
-   "club": "PadelShot Lyon - Saint-Genis-Laval",
-   "ville": "Saint-Genis-Laval",
-   "distance_km": 8.2,
-   "prix": "20 €",
-   "inscrits": "13/16",
-   "niveau_playtomic": "2.5–5",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/68fc7fa0-ec57-4976-998b-9ff6580c387c"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-10",
-   "fin": "2026-11-10",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 MESSIEURS AS CALUIRE mardi 10/11 (matin)",
-   "club": "CALUIRE (TENNIS CLUB AS)",
-   "ville": "CALUIRE ET CUIRE",
-   "distance_km": 4.9,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270635"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-10",
-   "fin": "2026-11-10",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 du 10/11 Padel Côtière",
-   "club": "PADEL COTIERE",
-   "ville": "Neyron",
-   "distance_km": 9.6,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/307943"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-10",
-   "fin": "2026-11-10",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN COUNTRY CLUB P100H",
-   "club": "ALL IN COUNTRY CLUB DECINES",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267681"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-10",
-   "fin": "2026-11-10",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN P100",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/325582"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-10",
-   "fin": "2026-11-10",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 SOIREE",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/272191"
-    }
-   ]
-  },
   {
    "debut": "2026-11-11",
    "fin": "2026-11-11",
@@ -4035,27 +3911,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303959"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P500"
    ],
    "libelle": "ALL IN P500",
@@ -4069,6 +3924,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270376"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "ALL IN P50",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/303959"
     }
    ]
   },
