@@ -4,21 +4,21 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-11",
-  "fin": "2027-03-11",
-  "genere": "2026-11-11T12:33",
+  "debut": "2026-11-12",
+  "fin": "2027-03-12",
+  "genere": "2026-11-12T13:40",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 389
+    "nb": 382
    },
    {
     "nom": "Playtomic",
     "ok": false,
     "nb": 0,
     "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://playtomic.com/search?q=Lyon",
-    "repris": 4
+    "repris": 3
    },
    {
     "nom": "4PADEL",
@@ -29,172 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "19:00",
-   "niveaux": [],
-   "libelle": "PADELSHOT PARTY INTERMEDIAIRE",
-   "club": "PadelShot Lyon - Craponne",
-   "ville": "Craponne",
-   "distance_km": 7.1,
-   "prix": "20 €",
-   "inscrits": "0/12",
-   "niveau_playtomic": "2.6–4",
-   "sources": [
-    {
-     "nom": "Playtomic",
-     "lien": "https://playtomic.com/activities/tournaments/2fe95bff-b415-4ec0-a038-0c82d5843a31"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN P100",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270364"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "",
-   "niveaux": [
-    "P500"
-   ],
-   "libelle": "P500 Messieurs",
-   "club": "ESPRIT PADEL CLUB",
-   "ville": "ST PRIEST",
-   "distance_km": 12.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271450"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271232"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "TC TREVOUX - P50 H - 11/11",
-   "club": "TREVOUX (TENNIS CLUB DE)",
-   "ville": "TREVOUX",
-   "distance_km": 21.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/318922"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 JOURNEE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/263813"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50H \"LAST MINUTE\"",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/318393"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-11",
-   "fin": "2026-11-11",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 du Mercredi après-midi - POLE PADEL BELLEVILLE",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314366"
-    }
-   ]
-  },
   {
    "debut": "2026-11-12",
    "fin": "2026-11-12",
@@ -1939,6 +1773,27 @@
   {
    "debut": "2026-11-30",
    "fin": "2026-11-30",
+   "heure": "10:00",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 Hommes Matin UrbanPadel Dardilly (10h-16h)",
+   "club": "URBAN PADEL DARDILLY",
+   "ville": "Dardilly",
+   "distance_km": 8.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/272227"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-30",
+   "fin": "2026-11-30",
    "heure": "",
    "niveaux": [
     "P500"
@@ -2351,6 +2206,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271030"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-04",
+   "fin": "2026-12-04",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 HOMMES SOIREE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/312185"
     }
    ]
   },
