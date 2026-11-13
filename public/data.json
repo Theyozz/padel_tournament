@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-12",
-  "fin": "2027-03-12",
-  "genere": "2026-11-12T13:40",
+  "debut": "2026-11-13",
+  "fin": "2027-03-13",
+  "genere": "2026-11-13T12:56",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 382
+    "nb": 394
    },
    {
     "nom": "Playtomic",
@@ -29,27 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-12",
-   "fin": "2026-11-12",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 H SOIREE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267874"
-    }
-   ]
-  },
   {
    "debut": "2026-11-13",
    "fin": "2026-11-14",
@@ -4182,6 +4161,27 @@
    ]
   },
   {
+   "debut": "2027-01-06",
+   "fin": "2027-01-06",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 Hommes matinal",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/325814"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-07",
    "fin": "2027-01-07",
    "heure": "",
@@ -4545,6 +4545,27 @@
    "niveaux": [
     "P50"
    ],
+   "libelle": "P50 Hommes journée",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326022"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-11",
+   "fin": "2027-01-11",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
    "libelle": "P50 HOMMES SOIREE",
    "club": "MAISON PADEL",
    "ville": "ST JEAN DE BOURNAY",
@@ -4661,6 +4682,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268389"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-14",
+   "fin": "2027-01-14",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Hommes Soir",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326027"
     }
    ]
   },
@@ -5383,6 +5425,27 @@
    "fin": "2027-01-25",
    "heure": "",
    "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Hommes journée",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326048"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-25",
+   "fin": "2027-01-25",
+   "heure": "",
+   "niveaux": [
     "P100"
    ],
    "libelle": "P100 HOMMES JOURNEE",
@@ -5627,6 +5690,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268560"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-02",
+   "fin": "2027-02-02",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 Hommes Journée",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326051"
     }
    ]
   },
@@ -5883,6 +5967,27 @@
    ]
   },
   {
+   "debut": "2027-02-08",
+   "fin": "2027-02-08",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Hommes journée",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326055"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-09",
    "fin": "2027-02-09",
    "heure": "",
@@ -5921,6 +6026,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270391"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-12",
+   "fin": "2027-02-12",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Hommes Soir",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326056"
     }
    ]
   },
@@ -6009,6 +6135,27 @@
    ]
   },
   {
+   "debut": "2027-02-17",
+   "fin": "2027-02-17",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 Hommes",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326059"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-19",
    "fin": "2027-02-19",
    "heure": "",
@@ -6026,6 +6173,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270048"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-21",
+   "fin": "2027-02-21",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Hommes et P100 Dames",
+   "club": "EDEN PADEL La Grand-Croix",
+   "ville": "LA GRAND CROIX",
+   "distance_km": 35.5,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326061"
     }
    ]
   },
