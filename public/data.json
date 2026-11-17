@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-16",
-  "fin": "2027-03-16",
-  "genere": "2026-11-16T13:27",
+  "debut": "2026-11-17",
+  "fin": "2027-03-17",
+  "genere": "2026-11-17T14:15",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 371
+    "nb": 369
    },
    {
     "nom": "Playtomic",
@@ -29,90 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-16",
-   "fin": "2026-11-16",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250H Du Lundi CRAPONNE",
-   "club": "PADEL SHOT LYON",
-   "ville": "CRAPONNE",
-   "distance_km": 7.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267220"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-16",
-   "fin": "2026-11-16",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 Hommes | Journée",
-   "club": "URBAN PADEL DARDILLY",
-   "ville": "Dardilly",
-   "distance_km": 8.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314992"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-16",
-   "fin": "2026-11-16",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 PS ST GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/265871"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-16",
-   "fin": "2026-11-16",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 H Journée Olympia",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/264782"
-    }
-   ]
-  },
   {
    "debut": "2026-11-17",
    "fin": "2026-11-17",
@@ -261,27 +177,6 @@
   {
    "debut": "2026-11-19",
    "fin": "2026-11-19",
-   "heure": "13:00",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 flash 13h - 17h",
-   "club": "TENNIS & PADEL CLUB DU BOIS D'ARS",
-   "ville": "Limonest",
-   "distance_km": 10.6,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271495"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-19",
-   "fin": "2026-11-19",
    "heure": "",
    "niveaux": [
     "P100"
@@ -339,6 +234,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/267225"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-20",
+   "fin": "2026-11-20",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 DU VENDREDI",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/325112"
     }
    ]
   },
@@ -889,27 +805,6 @@
    ]
   },
   {
-   "debut": "2026-11-23",
-   "fin": "2026-11-23",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 HOMMES JOURNEE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271028"
-    }
-   ]
-  },
-  {
    "debut": "2026-11-24",
    "fin": "2026-11-24",
    "heure": "",
@@ -1032,6 +927,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268855"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-25",
+   "fin": "2026-11-25",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 FLASH",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326435"
     }
    ]
   },
@@ -1221,6 +1137,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271240"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-27",
+   "fin": "2026-11-27",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 HOMMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271028"
     }
    ]
   },
@@ -1933,6 +1870,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271640"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-05",
+   "fin": "2026-12-05",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Nocturne pour le Téléthon",
+   "club": "ESPRIT PADEL CLUB",
+   "ville": "ST PRIEST",
+   "distance_km": 12.3,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324787"
     }
    ]
   },
@@ -5490,7 +5448,7 @@
    "niveaux": [
     "P50"
    ],
-   "libelle": "P50 HOMMES SOIREE",
+   "libelle": "P50 HOMMES APRES-MIDI",
    "club": "MAISON PADEL",
    "ville": "ST JEAN DE BOURNAY",
    "distance_km": 36.7,
@@ -5900,6 +5858,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268880"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-27",
+   "fin": "2027-02-27",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 Journée",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/272188"
     }
    ]
   },
