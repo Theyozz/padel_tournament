@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-18",
-  "fin": "2027-03-18",
-  "genere": "2026-11-18T13:44",
+  "debut": "2026-11-19",
+  "fin": "2027-03-19",
+  "genere": "2026-11-19T14:15",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 368
+    "nb": 364
    },
    {
     "nom": "Playtomic",
@@ -29,90 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-18",
-   "fin": "2026-11-18",
-   "heure": "09:00",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 Hommes Flash (9h-13h)",
-   "club": "GONES PADEL",
-   "ville": "Irigny",
-   "distance_km": 8.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/315196"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-18",
-   "fin": "2026-11-18",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN 100H",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270366"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-18",
-   "fin": "2026-11-18",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271235"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-18",
-   "fin": "2026-11-18",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 du Mercredi après-midi - POLE PADEL BELLEVILLE",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314370"
-    }
-   ]
-  },
   {
    "debut": "2026-11-19",
    "fin": "2026-11-19",
@@ -3369,27 +3285,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303959"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P500"
    ],
    "libelle": "ALL IN P500",
@@ -3403,6 +3298,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270376"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "ALL IN P50",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/303959"
     }
    ]
   },
