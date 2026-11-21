@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-20",
-  "fin": "2027-03-20",
-  "genere": "2026-11-20T13:54",
+  "debut": "2026-11-21",
+  "fin": "2027-03-21",
+  "genere": "2026-11-21T13:18",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 371
+    "nb": 359
    },
    {
     "nom": "Playtomic",
@@ -29,216 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100H/P50M Du Vendredi CRAPONNE",
-   "club": "PADEL SHOT LYON",
-   "ville": "CRAPONNE",
-   "distance_km": 7.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267225"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 DU VENDREDI",
-   "club": "STELLA PADEL SOCIETY",
-   "ville": "Dardilly",
-   "distance_km": 8.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/325112"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 PS SAINT GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269512"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-21",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN COUNTRY CLUB P50MIXTE & P100H",
-   "club": "ALL IN COUNTRY CLUB DECINES",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267691"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271236"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "ALL IN P100",
-   "club": "ALL IN PADEL 69",
-   "ville": "VILLEFRANCHE SUR SAONE",
-   "distance_km": 27.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270016"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 Hommes et Dames",
-   "club": "EDEN PADEL La Grand-Croix",
-   "ville": "LA GRAND CROIX",
-   "distance_km": 35.5,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/322070"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 HOMMES SOIREE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271025"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 HOMMES JOURNEE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271024"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-20",
-   "fin": "2026-11-20",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 HOMME",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/322162"
-    }
-   ]
-  },
   {
    "debut": "2026-11-21",
    "fin": "2026-11-21",
@@ -3119,27 +2909,6 @@
    "niveaux": [
     "P25"
    ],
-   "libelle": "P25 DAMES JOURNEE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271113"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-19",
-   "fin": "2026-12-19",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
    "libelle": "P25 HOMMES JOURNEE",
    "club": "MAISON PADEL",
    "ville": "ST JEAN DE BOURNAY",
@@ -3151,6 +2920,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271115"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-19",
+   "fin": "2026-12-19",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 DAMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271113"
     }
    ]
   },
@@ -3411,27 +3201,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303959"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P500"
    ],
    "libelle": "ALL IN P500",
@@ -3445,6 +3214,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270376"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-29",
+   "fin": "2026-12-29",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "ALL IN P50",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/303959"
     }
    ]
   },
