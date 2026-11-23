@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-22",
-  "fin": "2027-03-22",
-  "genere": "2026-11-22T13:11",
+  "debut": "2026-11-23",
+  "fin": "2027-03-23",
+  "genere": "2026-11-23T15:47",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 345
+    "nb": 340
    },
    {
     "nom": "Playtomic",
@@ -29,90 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-22",
-   "fin": "2026-11-22",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 TC LA PAPE",
-   "club": "PAPE (TENNIS CLUB DE LA)",
-   "ville": "RILLIEUX LA PAPE",
-   "distance_km": 6.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/305128"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-22",
-   "fin": "2026-11-22",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 MESSIEURS ST MAURICE DE BEYNOST",
-   "club": "SAINT MAURICE (TENNIS)",
-   "ville": "ST MAURICE DE BEYNOST",
-   "distance_km": 13.6,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/305885"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-22",
-   "fin": "2026-11-22",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 homme Vienne",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269219"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-22",
-   "fin": "2026-11-22",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 hommes",
-   "club": "CLONAS SUR VAREZE TC",
-   "ville": "CLONAS SUR VAREZE",
-   "distance_km": 39.1,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/318147"
-    }
-   ]
-  },
   {
    "debut": "2026-11-23",
    "fin": "2026-11-23",
@@ -1205,6 +1121,27 @@
   },
   {
    "debut": "2026-12-04",
+   "fin": "2026-12-05",
+   "heure": "",
+   "niveaux": [
+    "P500"
+   ],
+   "libelle": "P500",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/325566"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-04",
    "fin": "2026-12-04",
    "heure": "",
    "niveaux": [
@@ -1473,6 +1410,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/328876"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-06",
+   "fin": "2026-12-06",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 TC LA PAPE",
+   "club": "PAPE (TENNIS CLUB DE LA)",
+   "ville": "RILLIEUX LA PAPE",
+   "distance_km": 6.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/305128"
     }
    ]
   },
@@ -4041,6 +3999,27 @@
    "fin": "2027-01-15",
    "heure": "",
    "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Soirée",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324892"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-15",
+   "fin": "2027-01-15",
+   "heure": "",
+   "niveaux": [
     "P100"
    ],
    "libelle": "ALL IN P100 Villefranche",
@@ -4852,6 +4831,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271288"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-30",
+   "fin": "2027-01-30",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324910"
     }
    ]
   },
