@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-23",
-  "fin": "2027-03-23",
-  "genere": "2026-11-23T15:47",
+  "debut": "2026-11-24",
+  "fin": "2027-03-24",
+  "genere": "2026-11-24T15:40",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 340
+    "nb": 347
    },
    {
     "nom": "Playtomic",
@@ -29,132 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-23",
-   "fin": "2026-11-23",
-   "heure": "10:00",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 Hommes Matin UrbanPadel Dardilly (10h-16h)",
-   "club": "URBAN PADEL DARDILLY",
-   "ville": "Dardilly",
-   "distance_km": 8.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/272225"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-23",
-   "fin": "2026-11-23",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 HOMMES MATINÉE",
-   "club": "DARDILLY CHAMPAGNE (TENNIS CLUB)",
-   "ville": "CHAMPAGNE AU MONT D OR",
-   "distance_km": 6.5,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/300925"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-23",
-   "fin": "2026-11-23",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100H Du Lundi CRAPONNE",
-   "club": "PADEL SHOT LYON",
-   "ville": "CRAPONNE",
-   "distance_km": 7.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267221"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-23",
-   "fin": "2026-11-23",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 PS ST GENIS LAVAL",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/265875"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-23",
-   "fin": "2026-11-23",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271239"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-23",
-   "fin": "2026-11-23",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 JOURNEE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/263816"
-    }
-   ]
-  },
   {
    "debut": "2026-11-24",
    "fin": "2026-11-24",
@@ -698,6 +572,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268857"
+    }
+   ]
+  },
+  {
+   "debut": "2026-11-30",
+   "fin": "2026-11-30",
+   "heure": "09:00",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 MEMBR ST GENIS 9H",
+   "club": "PADEL SHOT LYON",
+   "ville": "SAINT GENIS LAVAL",
+   "distance_km": 8.3,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/330537"
     }
    ]
   },
@@ -1271,19 +1166,19 @@
    "fin": "2026-12-05",
    "heure": "",
    "niveaux": [
-    "P25"
+    "P50"
    ],
-   "libelle": "P25 Messieurs + P50 Dames",
-   "club": "ESPRIT PADEL CLUB",
-   "ville": "ST PRIEST",
-   "distance_km": 12.3,
+   "libelle": "ALL IN COUNTRY CLUB P50H TELETHON",
+   "club": "ALL IN COUNTRY CLUB DECINES",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.0,
    "prix": "25 €",
    "inscrits": "",
    "niveau_playtomic": "",
    "sources": [
     {
      "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271640"
+     "lien": "https://tenup.fft.fr/tournoi/331959"
     }
    ]
   },
@@ -1305,6 +1200,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/324787"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-05",
+   "fin": "2026-12-05",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 Messieurs + P50 Dames",
+   "club": "ESPRIT PADEL CLUB",
+   "ville": "ST PRIEST",
+   "distance_km": 12.3,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271640"
     }
    ]
   },
@@ -2991,27 +2907,6 @@
    "fin": "2026-12-29",
    "heure": "",
    "niveaux": [
-    "P50"
-   ],
-   "libelle": "ALL IN P50",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303959"
-    }
-   ]
-  },
-  {
-   "debut": "2026-12-29",
-   "fin": "2026-12-29",
-   "heure": "",
-   "niveaux": [
     "P500"
    ],
    "libelle": "ALL IN P500",
@@ -3046,6 +2941,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268185"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-30",
+   "fin": "2026-12-30",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "ALL IN P50",
+   "club": "ALL IN PADEL 69",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.2,
+   "prix": "20 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/303959"
     }
    ]
   },
@@ -3235,6 +3151,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/267233"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-04",
+   "fin": "2027-01-04",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324872"
     }
    ]
   },
@@ -3537,6 +3474,27 @@
    "fin": "2027-01-08",
    "heure": "",
    "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 SOIREE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324885"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-08",
+   "fin": "2027-01-08",
+   "heure": "",
+   "niveaux": [
     "P25"
    ],
    "libelle": "ALL IN P25 Villefranche",
@@ -3638,6 +3596,27 @@
    ]
   },
   {
+   "debut": "2027-01-09",
+   "fin": "2027-01-09",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 Hommes journée",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/322988"
+    }
+   ]
+  },
+  {
    "debut": "2027-01-10",
    "fin": "2027-01-10",
    "heure": "",
@@ -3655,6 +3634,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271271"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-10",
+   "fin": "2027-01-10",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 H ET P250 D",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/321970"
     }
    ]
   },
@@ -3802,6 +3802,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/326022"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-11",
+   "fin": "2027-01-11",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 HOMMES SOIREE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/329010"
     }
    ]
   },
@@ -4495,6 +4516,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/283294"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-22",
+   "fin": "2027-01-22",
+   "heure": "",
+   "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 Soirée",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324898"
     }
    ]
   },
@@ -5318,6 +5360,27 @@
    ]
   },
   {
+   "debut": "2027-02-12",
+   "fin": "2027-02-12",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 HOMMES",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/329028"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-13",
    "fin": "2027-02-13",
    "heure": "",
@@ -5339,6 +5402,27 @@
    ]
   },
   {
+   "debut": "2027-02-13",
+   "fin": "2027-02-13",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Journée",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324923"
+    }
+   ]
+  },
+  {
    "debut": "2027-02-15",
    "fin": "2027-02-17",
    "heure": "",
@@ -5356,6 +5440,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/265893"
+    }
+   ]
+  },
+  {
+   "debut": "2027-02-15",
+   "fin": "2027-02-15",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 soirée Vienne",
+   "club": "VIENNE TC",
+   "ville": "VIENNE",
+   "distance_km": 28.8,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/270905"
     }
    ]
   },
