@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-24",
-  "fin": "2027-03-24",
-  "genere": "2026-11-24T15:40",
+  "debut": "2026-11-25",
+  "fin": "2027-03-25",
+  "genere": "2026-11-25T15:23",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 347
+    "nb": 342
    },
    {
     "nom": "Playtomic",
@@ -29,111 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-24",
-   "fin": "2026-11-24",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 MESSIEURS AS CALUIRE mardi 24/11 (matin)",
-   "club": "CALUIRE (TENNIS CLUB AS)",
-   "ville": "CALUIRE ET CUIRE",
-   "distance_km": 4.9,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270639"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-24",
-   "fin": "2026-11-24",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "ALL IN COUNTRY CLUB P25H",
-   "club": "ALL IN COUNTRY CLUB DECINES",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267697"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-24",
-   "fin": "2026-11-24",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "ALL IN P25",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "20 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/303956"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-24",
-   "fin": "2026-11-24",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 H SOIREE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267877"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-24",
-   "fin": "2026-11-24",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 soirée - Vienne",
-   "club": "VIENNE TC",
-   "ville": "VIENNE",
-   "distance_km": 28.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269282"
-    }
-   ]
-  },
   {
    "debut": "2026-11-25",
    "fin": "2026-11-25",
@@ -2815,6 +2710,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/268176"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-23",
+   "fin": "2026-12-23",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 HOMMES JOURNEE",
+   "club": "MAISON PADEL",
+   "ville": "ST JEAN DE BOURNAY",
+   "distance_km": 36.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/319514"
     }
    ]
   },
