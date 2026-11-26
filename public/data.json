@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-25",
-  "fin": "2027-03-25",
-  "genere": "2026-11-25T15:23",
+  "debut": "2026-11-26",
+  "fin": "2027-03-26",
+  "genere": "2026-11-26T14:53",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 342
+    "nb": 344
    },
    {
     "nom": "Playtomic",
@@ -29,69 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-25",
-   "fin": "2026-11-25",
-   "heure": "09:00",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 Hommes Flash (9h-13h)",
-   "club": "GONES PADEL",
-   "ville": "Irigny",
-   "distance_km": 8.0,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/268855"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-25",
-   "fin": "2026-11-25",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 FLASH",
-   "club": "STELLA PADEL SOCIETY",
-   "ville": "Dardilly",
-   "distance_km": 8.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/326435"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-25",
-   "fin": "2026-11-25",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 du Mercredi après-midi - POLE PADEL BELLEVILLE",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314373"
-    }
-   ]
-  },
   {
    "debut": "2026-11-26",
    "fin": "2026-11-26",
@@ -2300,6 +2237,27 @@
    "niveaux": [
     "P50"
    ],
+   "libelle": "P250D & P50H",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326816"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-18",
+   "fin": "2026-12-18",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
    "libelle": "P50 PS SAINT GENIS LAVAL",
    "club": "PADEL SHOT LYON",
    "ville": "SAINT GENIS LAVAL",
@@ -2542,6 +2500,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271113"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-20",
+   "fin": "2026-12-20",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "ALL IN COUNTRY CLUB P50H",
+   "club": "ALL IN COUNTRY CLUB DECINES",
+   "ville": "DECINES CHARPIEU",
+   "distance_km": 11.0,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/330603"
     }
    ]
   },
@@ -3067,6 +3046,48 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/267233"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-04",
+   "fin": "2027-01-04",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 FLASH",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326675"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-04",
+   "fin": "2027-01-04",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Hommes | Journée",
+   "club": "URBAN PADEL DARDILLY",
+   "ville": "Dardilly",
+   "distance_km": 8.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324722"
     }
    ]
   },
@@ -4369,6 +4390,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/270382"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-21",
+   "fin": "2027-01-21",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "La semaine folle : P250 Interne",
+   "club": "ESPRIT PADEL CLUB",
+   "ville": "ST PRIEST",
+   "distance_km": 12.3,
+   "prix": "22 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/271713"
     }
    ]
   },
