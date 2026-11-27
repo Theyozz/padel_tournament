@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-26",
-  "fin": "2027-03-26",
-  "genere": "2026-11-26T14:53",
+  "debut": "2026-11-27",
+  "fin": "2027-03-27",
+  "genere": "2026-11-27T14:51",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 344
+    "nb": 351
    },
    {
     "nom": "Playtomic",
@@ -29,90 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-26",
-   "fin": "2026-11-26",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "p50 lyon padel vv",
-   "club": "LYON PADEL",
-   "ville": "VAULX EN VELIN",
-   "distance_km": 5.9,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314885"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-26",
-   "fin": "2026-11-26",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 du 26/11 Padel Côtière",
-   "club": "PADEL COTIERE",
-   "ville": "Neyron",
-   "distance_km": 9.6,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/307947"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-26",
-   "fin": "2026-11-26",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "ALL IN P250",
-   "club": "ALL IN PADEL 69",
-   "ville": "DECINES CHARPIEU",
-   "distance_km": 11.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/270367"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-26",
-   "fin": "2026-11-26",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 H SOIREE",
-   "club": "OLYMPIA SPORTS",
-   "ville": "PONT EVEQUE",
-   "distance_km": 26.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/267878"
-    }
-   ]
-  },
   {
    "debut": "2026-11-27",
    "fin": "2026-11-27",
@@ -2298,6 +2214,27 @@
    "fin": "2026-12-18",
    "heure": "",
    "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Soirée",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/337756"
+    }
+   ]
+  },
+  {
+   "debut": "2026-12-18",
+   "fin": "2026-12-18",
+   "heure": "",
+   "niveaux": [
     "P250"
    ],
    "libelle": "ALL IN P250 Villefranche",
@@ -3266,6 +3203,27 @@
    "niveaux": [
     "P100"
    ],
+   "libelle": "P100 FLASH",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326676"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-06",
+   "fin": "2027-01-06",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
    "libelle": "P100H - Esprit Padel La Boisse",
    "club": "ESPRIT PADEL LA BOISSE",
    "ville": "LA BOISSE",
@@ -3298,6 +3256,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/325814"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-07",
+   "fin": "2027-01-07",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
+   "libelle": "p100 lyon padel vv",
+   "club": "LYON PADEL",
+   "ville": "VAULX EN VELIN",
+   "distance_km": 5.9,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/327784"
     }
    ]
   },
@@ -3361,6 +3340,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/267239"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-08",
+   "fin": "2027-01-08",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 DU VENDREDI",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326677"
     }
    ]
   },
@@ -3663,6 +3663,27 @@
    "fin": "2027-01-11",
    "heure": "",
    "niveaux": [
+    "P25"
+   ],
+   "libelle": "P25 FLASH",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326679"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-11",
+   "fin": "2027-01-11",
+   "heure": "",
+   "niveaux": [
     "P100"
    ],
    "libelle": "P100 PS ST GENIS LAVAL",
@@ -3907,6 +3928,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/300932"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-15",
+   "fin": "2027-01-15",
+   "heure": "",
+   "niveaux": [
+    "P50"
+   ],
+   "libelle": "P50 Hommes | Soirée",
+   "club": "URBAN PADEL DARDILLY",
+   "ville": "Dardilly",
+   "distance_km": 8.2,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/324729"
     }
    ]
   },
@@ -4337,6 +4379,27 @@
    "niveaux": [
     "P100"
    ],
+   "libelle": "P100 FLASH",
+   "club": "STELLA PADEL SOCIETY",
+   "ville": "Dardilly",
+   "distance_km": 8.1,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/326685"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-20",
+   "fin": "2027-01-20",
+   "heure": "",
+   "niveaux": [
+    "P100"
+   ],
    "libelle": "La semaine folle : P100 Messieurs",
    "club": "ESPRIT PADEL CLUB",
    "ville": "ST PRIEST",
@@ -4545,6 +4608,27 @@
    "fin": "2027-01-23",
    "heure": "",
    "niveaux": [
+    "P100"
+   ],
+   "libelle": "P100 JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/337823"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-23",
+   "fin": "2027-01-23",
+   "heure": "",
+   "niveaux": [
     "P25"
    ],
    "libelle": "P25 HOMMES JOURNEE",
@@ -4579,6 +4663,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/267696"
+    }
+   ]
+  },
+  {
+   "debut": "2027-01-24",
+   "fin": "2027-01-24",
+   "heure": "",
+   "niveaux": [
+    "P250"
+   ],
+   "libelle": "P250 JOURNEE",
+   "club": "OLYMPIA SPORTS",
+   "ville": "PONT EVEQUE",
+   "distance_km": 26.7,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/337826"
     }
    ]
   },
@@ -5587,6 +5692,27 @@
     {
      "nom": "Ten'Up",
      "lien": "https://tenup.fft.fr/tournoi/271909"
+    }
+   ]
+  },
+  {
+   "debut": "2027-03-26",
+   "fin": "2027-03-28",
+   "heure": "",
+   "niveaux": [
+    "P1000"
+   ],
+   "libelle": "P1000 Hommes - Gones Padel",
+   "club": "GONES PADEL",
+   "ville": "Irigny",
+   "distance_km": 8.0,
+   "prix": "25 €",
+   "inscrits": "",
+   "niveau_playtomic": "",
+   "sources": [
+    {
+     "nom": "Ten'Up",
+     "lien": "https://tenup.fft.fr/tournoi/282509"
     }
    ]
   }
