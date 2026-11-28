@@ -4,14 +4,14 @@
   "epreuve": "DM",
   "niveaux": [],
   "hors_fft": true,
-  "debut": "2026-11-27",
-  "fin": "2027-03-27",
-  "genere": "2026-11-27T14:51",
+  "debut": "2026-11-28",
+  "fin": "2027-03-28",
+  "genere": "2026-11-28T13:59",
   "sources": [
    {
     "nom": "Ten'Up",
     "ok": true,
-    "nb": 351
+    "nb": 343
    },
    {
     "nom": "Playtomic",
@@ -29,132 +29,6 @@
   "doublons": 0
  },
  "tournois": [
-  {
-   "debut": "2026-11-27",
-   "fin": "2026-11-27",
-   "heure": "",
-   "niveaux": [
-    "P50"
-   ],
-   "libelle": "P50 TC LA PAPE",
-   "club": "PAPE (TENNIS CLUB DE LA)",
-   "ville": "RILLIEUX LA PAPE",
-   "distance_km": 6.8,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314035"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-27",
-   "fin": "2026-11-27",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100 DU VENDREDI",
-   "club": "STELLA PADEL SOCIETY",
-   "ville": "Dardilly",
-   "distance_km": 8.1,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/321904"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-27",
-   "fin": "2026-11-27",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 PS ST Genis Laval",
-   "club": "PADEL SHOT LYON",
-   "ville": "SAINT GENIS LAVAL",
-   "distance_km": 8.3,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/269513"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-27",
-   "fin": "2026-11-27",
-   "heure": "",
-   "niveaux": [
-    "P100"
-   ],
-   "libelle": "P100H - Esprit Padel La Boisse",
-   "club": "ESPRIT PADEL LA BOISSE",
-   "ville": "LA BOISSE",
-   "distance_km": 19.2,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271240"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-27",
-   "fin": "2026-11-27",
-   "heure": "",
-   "niveaux": [
-    "P250"
-   ],
-   "libelle": "P250 HOMMES JOURNEE",
-   "club": "MAISON PADEL",
-   "ville": "ST JEAN DE BOURNAY",
-   "distance_km": 36.7,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/271028"
-    }
-   ]
-  },
-  {
-   "debut": "2026-11-27",
-   "fin": "2026-11-27",
-   "heure": "",
-   "niveaux": [
-    "P25"
-   ],
-   "libelle": "P25 du Vendredi soir - POLE PADEL BELLEVILLE",
-   "club": "POLE PADEL",
-   "ville": "BELLEVILLE",
-   "distance_km": 38.4,
-   "prix": "25 €",
-   "inscrits": "",
-   "niveau_playtomic": "",
-   "sources": [
-    {
-     "nom": "Ten'Up",
-     "lien": "https://tenup.fft.fr/tournoi/314374"
-    }
-   ]
-  },
   {
    "debut": "2026-11-28",
    "fin": "2026-11-28",
